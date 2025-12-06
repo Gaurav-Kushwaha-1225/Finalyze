@@ -1,0 +1,184 @@
+{
+    "IFCI Limited": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "IFCI",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5013366a-24f3-48c6-9fb1-ba99e3650a3a.pdf",
+        "domain": "Construction & Real Estate"
+    },
+    "Larsen & Toubro": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Larsen & Toubro",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63959ce8-b641-4bd4-9a62-43ab52301856.pdf",
+        "domain": "Construction & Real Estate"
+    },
+    "American Tower Corporation": {
+        "source": "annualreports.com",
+        "matched_name": "American Tower Corporation",
+        "year": 2024,
+        "url": "https://www.annualreports.com/Click/498",
+        "domain": "Construction & Real Estate"
+    },
+    "Shriram Properties": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Shriram Properties",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3bc57f2-18d0-49a5-b3fa-d16eb6de4bff.pdf",
+        "domain": "Construction & Real Estate"
+    },
+    "Mitsui Fudosan": {
+        "source": "annualreports.com",
+        "matched_name": "Mitsui & Co.",
+        "year": 2024,
+        "url": "https://www.annualreports.com/Click/34067",
+        "domain": "Construction & Real Estate"
+    },
+    "Novartis": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Novartis India",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ca2b229-36f0-4585-9c8e-5e0d077304c4.pdf",
+        "domain": "Health Care & Pharmaceuticals"
+    },
+    "Merck & Co.": {
+        "source": "annualreports.com",
+        "matched_name": "Merck & Co. Inc.",
+        "year": 2025,
+        "url": "https://www.annualreports.com/Click/23612",
+        "domain": "Health Care & Pharmaceuticals"
+    },
+    "AbbVie": {
+        "source": "annualreports.com",
+        "matched_name": "Abbvie Inc",
+        "year": null,
+        "url": "https://www.annualreports.com/Click/26605",
+        "domain": "Health Care & Pharmaceuticals"
+    },
+    "Bristol Myers Squibb": {
+        "source": "annualreports.com",
+        "matched_name": "Bristol Myers Squibb Co.",
+        "year": null,
+        "url": "https://www.annualreports.com/Click/7829",
+        "domain": "Health Care & Pharmaceuticals"
+    },
+    "AstraZeneca": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Astrazeneca Phar",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08c2022f-1184-41e7-839c-bf4352a3e535.pdf",
+        "domain": "Health Care & Pharmaceuticals"
+    },
+    "Unilever": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Hind. Unilever",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=770bf03e-526d-45d8-8364-13f7fc523289.pdf",
+        "domain": "Consumer Goods & Retail"
+    },
+    "PepsiCo": {
+        "source": "annualreports.com",
+        "matched_name": "Pepsico, Inc.",
+        "year": null,
+        "url": "https://www.annualreports.com/Click/10198",
+        "domain": "Consumer Goods & Retail"
+    },
+    "Colgate-Palmolive": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Colgate-Palmoliv",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e0f9bb7-0aaa-4516-8cae-34d4d7caa555.pdf",
+        "domain": "Consumer Goods & Retail"
+    },
+    "Spencers": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Spencer's Retail",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8e45773-c417-4223-bad1-8f27bd5bfff4.pdf",
+        "domain": "Consumer Goods & Retail"
+    },
+    "JD.com": {
+        "source": "annualreports.com",
+        "matched_name": "JD.com, Inc.",
+        "year": null,
+        "url": "https://www.annualreports.com/Click/28812",
+        "domain": "Consumer Goods & Retail"
+    },
+    "Titan": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Titan Company",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92f76ec9-cc9b-4534-ad82-2cbd920a55b7.pdf",
+        "domain": "Consumer Goods & Retail"
+    },
+    "Infosys": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Infosys",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4527f4d2-dac4-4528-a1dc-5070fd9e140d.pdf",
+        "domain": "Information Technology"
+    },
+    "Cisco Systems": {
+        "source": "",
+        "matched_name": "",
+        "year": 2025,
+        "url": "https://www.cisco.com/c/dam/en_us/about/annual-report/2025-cisco-full-annual-report.pdf",
+        "domain": "Information Technology"
+    },
+    "Accenture": {
+        "source": "annualreports.com",
+        "matched_name": "Accenture plc",
+        "year": null,
+        "url": "https://www.annualreports.com/Click/7523",
+        "domain": "Information Technology"
+    },
+    "Adobe": {
+        "source": "",
+        "matched_name": "",
+        "year": null,
+        "url": "https://stocklight.com/stocks/us/nasdaq-adbe/adobe/annual-reports/nasdaq-adbe-2024-10K-24536501.pdf",
+        "domain": "Information Technology"
+    },
+    "Nvidia": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Novartis India",
+        "year": 2025,
+        "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/annual/NVIDIA-2025-Annual-Report.pdf",
+        "domain": "Information Technology"
+    },
+    "Warner Bros. Discovery": {
+        "source": "annualreports.com",
+        "matched_name": "Warner Bros. Discovery, Inc.",
+        "year": null,
+        "url": "https://www.annualreports.com/Click/24248",
+        "domain": "Media, Telecom & Entertainment"
+    },
+    "`Vodafone Group`": {
+        "source": "screener.in -> bseindia.com/nseindia.com",
+        "matched_name": "Vodafone Idea",
+        "year": 2025,
+        "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fec0083d-97dd-49f6-9650-f10706e1b947.pdf",
+        "domain": "Media, Telecom & Entertainment"
+    },
+    "Comcast": {
+        "source": "annualreports.com",
+        "matched_name": "Comcast Corp.",
+        "year": null,
+        "url": "https://www.annualreports.com/Click/23245",
+        "domain": "Media, Telecom & Entertainment"
+    },
+    "The Walt Disney Company": {
+        "source": "",
+        "matched_name": "",
+        "year": 2025,
+        "url": "https://thewaltdisneycompany.com/app/uploads/2025/01/2024-Annual-Report.pdf",
+        "domain": "Media, Telecom & Entertainment"
+    },
+    "Netflix": {
+        "source": "",
+        "matched_name": "",
+        "year": 2025,
+        "url": "https://stocklight.com/stocks/us/nasdaq-nflx/netflix/annual-reports/nasdaq-nflx-2025-10K-25558814.pdf",
+        "domain": "Media, Telecom & Entertainment"
+    }
+}
