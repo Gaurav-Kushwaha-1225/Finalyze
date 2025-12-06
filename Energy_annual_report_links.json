@@ -1,0 +1,918 @@
+{
+  "Saudi Aramco": [],
+  "ExxonMobil": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Exxon Mobil Corporation",
+      "year": 2024,
+      "url": "https://www.annualreports.com/Click/24067"
+    }
+  ],
+  "Shell": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Shell Plc",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/36054"
+    }
+  ],
+  "PetroChina": [],
+  "BP": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "BXP",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/22148"
+    }
+  ],
+  "TotalEnergies": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Waaree Energies",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=302383e8-d2d9-4085-8935-b8324f8b0753.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "TotalEnergies",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/20020"
+    }
+  ],
+  "Equinor": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Equinor ASA",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/27815"
+    }
+  ],
+  "Eni": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Enviri",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/4406"
+    }
+  ],
+  "ConocoPhillips": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5469709c-7fed-4edb-87dc-5e70691425ad.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3648b35c-5891-4dbb-be73-da0d098027fd.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b2fd231-ded2-4a60-84c0-68834ef8f2ed.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe5ba440-6287-490b-ab4b-7132dfeb83d0.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/74088500163.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/68918500163.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/66565500163_08_09_20.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/5001630319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/5001630318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/5001630317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/5001630316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/5001630315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/5001630314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/5001630313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/5001630312.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Godfrey Phillips",
+      "year": 2011,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500163/5001630311.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "ConocoPhillips",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/8070"
+    }
+  ],
+  "Phillips 66": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Phillips 66",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/33089"
+    }
+  ],
+  "Marathon Petroleum": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=959915b1-f187-441a-be5c-993e1964da26.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53b69387-e88c-45b7-8a99-b8421bf8467a.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1dcd9477-8f28-4f34-b500-71d86a201cfb.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/76524503101.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/71855503101.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/67140503101.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/5031010319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/5031010318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/5031010317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/5031010316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/5031010315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/5031010314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/5031010313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/5031010312.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Marathon Nextgen",
+      "year": 2011,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/503101/5031010311.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Carnarvon Petroleum",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/31464"
+    }
+  ],
+  "Valero Energy": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2025,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_28266_SOLEX_2024_2025_A_8436023_03092025145503.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2024,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_25592_SOLEX_2023_2024_03092024184937.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2023,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_23171_SOLEX_2022_2023_01092023105042_09012023110000.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2022,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_21177_SOLEX_2021_2022_03092022111327_09032022120014.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2021,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_18692_SOLEX_2020_2021_10082021183335_10082021190002.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2020,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_16787_SOLEX_2019_2020_19082020172106_19082020180003.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2019,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_15229_SOLEX_2018_2019_16082019142135_16082019150002.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2018,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_12553_SOLEX_2017_2018_20072018162928.zip"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Valero Energy Corp.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/23946"
+    }
+  ],
+  "Reliance Industries": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=468b09a3-a212-4066-bbaa-4b0ba524d2ce.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d473280d-1c2b-4037-8ff9-dfbb82aa2c7e.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b55b5dfc-a3bf-4f24-9d7f-ca09774a1dd9.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/74185500325.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/68509500325.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/5003250320.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/5003250319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/5003250318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/5003250317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/5003250316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/5003250315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/5003250314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2013,
+      "url": "https://archives.nseindia.com/annual_reports/AR_19_RELIANCE_2012_2013_08052013171218.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/5003250313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Industr",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500325/5003250312.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Reliance Industries Limited",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/31188"
+    }
+  ],
+  "NextEra Energy": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2025,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_28266_SOLEX_2024_2025_A_8436023_03092025145503.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2024,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_25592_SOLEX_2023_2024_03092024184937.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2023,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_23171_SOLEX_2022_2023_01092023105042_09012023110000.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2022,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_21177_SOLEX_2021_2022_03092022111327_09032022120014.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2021,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_18692_SOLEX_2020_2021_10082021183335_10082021190002.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2020,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_16787_SOLEX_2019_2020_19082020172106_19082020180003.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2019,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_15229_SOLEX_2018_2019_16082019142135_16082019150002.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Solex Energy",
+      "year": 2018,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_12553_SOLEX_2017_2018_20072018162928.zip"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "NextEra Energy, Inc",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/21855"
+    }
+  ],
+  "Duke Energy": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "SunCoke Energy",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/21528"
+    }
+  ],
+  "Enel": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Kernel",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/30019"
+    }
+  ],
+  "Iberdrola": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Iberdrola S.A.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/16715"
+    }
+  ],
+  "China Shenhua Energy": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3244ae90-5abc-44dd-a2e9-6ff722e57785.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d68e3aad-fe81-44c1-94d7-44592c6d4e73.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d7ff1ca-0371-4c10-b45d-fa71df333431.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/75252530355.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/70734530355.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/5303550320.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/5303550319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/5303550318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/5303550317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/5303550316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/5303550315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/5303550314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/5303550313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/5303550312.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Asian Energy",
+      "year": 2011,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/530355/5303550311.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Sintana Energy Inc.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/27262"
+    }
+  ],
+  "CNOOC": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5f98e80-b5d0-45a7-a3db-64d7e4752eef.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c35b90ed-6b9e-4f98-bdd6-8178463cd53e.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4462937e-ee0b-4ece-872d-e273c4aaeb86.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/73420500730.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/68841500730.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/5007300320.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/5007300319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/5007300318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/5007300317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/5007300316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/5007300315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/5007300314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/5007300313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500730/5007300312.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "NOCIL",
+      "year": 2012,
+      "url": "https://archives.nseindia.com/annual_reports/AR_NOCIL_2011_2012_03072012121518.zip"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "COSOL",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/31441"
+    }
+  ],
+  "Gazprom": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Gazprom",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/31182"
+    }
+  ],
+  "Rosneft": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Rosneft Oil Ojsc",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/30416"
+    }
+  ],
+  "Canadian Natural Resources": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Canadian Natural Resources Limited",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/18127"
+    }
+  ],
+  "Suncor Energy": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3f426be-6b96-4a2e-855b-2e4937080064.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd2b3794-e202-4cba-9270-6d0b1115f539.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7738a1c9-43a3-46eb-a1b7-4e3efa4c0d02.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/75765532667.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/70072532667.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/65613532667.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/5326670319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/5326670318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/5326670317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/5326670316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/5326670315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/5326670314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2013,
+      "url": "https://archives.nseindia.com/annual_reports/AR_1313_SUZLON_2012_2013_02092013094718.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/5326670313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Suzlon Energy",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532667/5326670312.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "SunCoke Energy",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/21528"
+    }
+  ],
+  "Occidental Petroleum": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f778e6b5-9ee2-413b-a3ae-d6c40d14e82f.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=646cfbb7-ebc4-4245-b5df-19b425ac8962.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f599038-ecae-46f2-bad8-ffd17019e268.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/73387500078.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/68716500078.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/64896500078.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/5000780319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/5000780318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/5000780317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/5000780316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/5000780315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/5000780314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/5000780313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/5000780312.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Oriental Aromat.",
+      "year": 2011,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500078/5000780311.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Central Petroleum",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/31457"
+    }
+  ]
+}

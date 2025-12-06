@@ -1,0 +1,78 @@
+{
+  "file_name": "financial_reports_1k.csv",
+  "title": "Financial Reports Dataset",
+  "description": "Contains 1k financial reports of different companies of different sectors and domains, takes from different sources.",
+  "author": "Finalyze",
+  "version": "1.0",
+  "delimiter": ",",
+  "row_count": 0,
+  "column_count": 0,
+  "columns": [
+    {
+      "name": "src_urls",
+      "label": "Source URLs",
+      "description": "URLs of the financial reports.",
+      "data_type": "string",
+      "required": true,
+      "unique": true,
+      "example": "https://example.com/report/100234"
+    },
+    {
+      "name": "access_timestamps",
+      "label": "",
+      "description": "",
+      "data_type": "string",
+      "required": true,
+      "unique": false,
+      "example": ""
+    },
+    {
+      "name": "site",
+      "label": "Site",
+      "description": "Financial Sites from where the report is taken from.",
+      "data_type": "string",
+      "required": true,
+      "unique": false,
+      "example": "screener.in"
+    },
+    {
+      "name": "Title",
+      "label": "Email Address",
+      "description": "Primary contact email for the customer.",
+      "data_type": "string",
+      "required": false,
+      "unique": true,
+      "example": "riya.sharma@example.com"
+    },
+    {
+      "name": "signup_date",
+      "label": "Signup Date",
+      "description": "Date when the customer first registered.",
+      "data_type": "date",
+      "format": "YYYY-MM-DD",
+      "required": true,
+      "unique": false,
+      "example": "2025-01-10"
+    },
+    {
+      "name": "is_active",
+      "label": "Is Active?",
+      "description": "Indicates whether the customer account is currently active.",
+      "data_type": "boolean",
+      "allowed_values": ["true", "false"],
+      "required": true,
+      "unique": false,
+      "example": "true"
+    },
+    {
+      "name": "country",
+      "label": "Country",
+      "description": "Country where the customer resides.",
+      "data_type": "string",
+      "required": false,
+      "unique": false,
+      "allowed_values": ["IN", "US", "UK", "AU", "Other"],
+      "example": "IN"
+    }
+  ]
+}

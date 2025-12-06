@@ -1,0 +1,938 @@
+{
+  "Comcast": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Comcast Corp.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/23245"
+    }
+  ],
+  "The Walt Disney Company": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92f76ec9-cc9b-4534-ad82-2cbd920a55b7.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b841ec3-461e-4368-8fb9-d95df5065e11.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45417344-b78e-4ff6-8085-7c17a0e906db.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/73425500114_05_07_22.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/68767500114.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/5001140320.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/5001140319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/5001140318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/5001140317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/5001140316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/5001140315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/5001140314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/5001140313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/5001140312.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Titan Company",
+      "year": 2011,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/500114/5001140311.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Walt Disney Co.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/23968"
+    }
+  ],
+  "Warner Bros. Discovery": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Warner Bros. Discovery, Inc.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/24248"
+    }
+  ],
+  "Paramount Global": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ed8e5e8-066e-42c9-b060-18d1de0967c1.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9c026de-7600-45ba-9447-ca0b6f73a6fe.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dddb6290-d9c5-466a-b76e-e6b7597d3cc7.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/73034517522.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/68679517522.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/5175220320.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/5175220319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/5175220318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/5175220317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/5175220316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/5175220315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/5175220314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/5175220313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/5175220312.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rajratan Global",
+      "year": 2011,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/517522/5175220311.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Paramount",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/29527"
+    }
+  ],
+  "Netflix": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Netlinkz",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/31690"
+    }
+  ],
+  "Sony Group": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "SP Group",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/30390"
+    }
+  ],
+  "Tencent Holdings": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66c0a8ea-3720-4872-81a4-392d4081fa80.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d248326-551d-440a-8359-f0aadd0e05f6.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c744c68-f7e0-405e-9cb1-a4119526bf5b.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/73175505800.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/68887505800.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/5058000320.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/5058000319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/5058000318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/5058000317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/5058000316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/5058000315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/5058000314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/5058000313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2012,
+      "url": "https://www.bseindia.com/HIS_ANN_RPT/HISTANNR/2012/RANE_HOLDINGS_LTD-505800-MARCH-2012.PDF"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Rane Holdings",
+      "year": 2011,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/505800/5058000311.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Vince Holdings",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/34034"
+    }
+  ],
+  "ByteDance": [],
+  "Meta Platforms": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef09ca68-2296-4eb0-a726-8f20280ecbcb.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd8e7253-24aa-4a75-8802-db5f64bb747a.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5fd7ae6-5891-4cdf-a358-82778b0f3f51.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/74120532790_01_09_22.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/70936532790.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/66018532790.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/5327900319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/5327900318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/5327900317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/5327900316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/5327900315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/5327900314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2013,
+      "url": "https://archives.nseindia.com/annual_reports/AR_1157_TANLA_2012_2013_23082013190030.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/5327900313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Tanla Platforms",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532790/5327900312.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Meta Platforms, Inc.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/18970"
+    }
+  ],
+  "Alphabet": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Aalberts",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/30144"
+    }
+  ],
+  "Amazon": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Aimtron",
+      "year": 2025,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_27603_AIMTRON_2024_2025_A_11097029_23082025151609.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Aimtron",
+      "year": 2024,
+      "url": "https://archives.nseindia.com/annual_reports/SME_AR_25855_AIMTRON_2023_2024_05092024175033.pdf"
+    }
+  ],
+  "Spotify Technology": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "L&T Technology",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=811bf83f-ac5d-4761-8975-baf623f2ccb5.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "L&T Technology",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b000333-677d-4ddc-bd76-6576ed733943.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "L&T Technology",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=371d0d34-81f4-4cdb-9cef-362ca7a9c855.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "L&T Technology",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/540115/73262540115.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "L&T Technology",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/540115/68603540115.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "L&T Technology",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/540115/5401150320.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "L&T Technology",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/540115/5401150319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "L&T Technology",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/540115/5401150318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "L&T Technology",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/540115/5401150317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "L&T Technology",
+      "year": 2010,
+      "url": "https://www.bseindia.com/HIS_ANN_RPT/HISTANNR/2010/L_&_T_TECHNOLOGY_SERVICES_LTD-540115-MARCH-2010.PDF"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Spotify Technology S.A.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/27965"
+    }
+  ],
+  "Electronic Arts": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Electronics Mart",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94545b53-7540-47bc-95f7-3301ffb6998a.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Electronics Mart",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d140c931-c485-44d6-9fb9-e7f84440f3cd.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Electronics Mart",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8df39f7-9dd2-4604-9e63-134159b2652c.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Electronic Arts",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/24230"
+    }
+  ],
+  "Activision Blizzard": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Activision Blizzard Inc.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/4089"
+    }
+  ],
+  "Nintendo": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ea15721-f20b-4de2-b28f-13ebd22d0217.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4012641-dc58-4354-8e9b-583f4156a05e.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ee520f0-73d7-4e6e-bbfa-15a947921e0b.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/77204532722.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/70470532722.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/65586532722.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/5327220319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/5327220318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/5327220317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/5327220316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/5327220315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/5327220314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/5327220313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2012,
+      "url": "https://archives.nseindia.com/annual_reports/AR_NITCO_2011_2012_14092012092358.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Nitco",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532722/5327220312.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Nitro",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/31712"
+    }
+  ],
+  "AT&T": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "AT&T Inc.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/7699"
+    }
+  ],
+  "Verizon Communications": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Verizon Communications Inc.",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/7083"
+    }
+  ],
+  "Deutsche Telekom": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Altius Telecom",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a009666-0e33-4fd8-98e0-462bf58dc205.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Altius Telecom",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/543225/73370543225.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Altius Telecom",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/543225/68832543225.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Deutsche Telekom AG",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/19604"
+    }
+  ],
+  "China Mobile": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "China Mobile Limited",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/27411"
+    }
+  ],
+  "China Telecom": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Altius Telecom",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a009666-0e33-4fd8-98e0-462bf58dc205.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Altius Telecom",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/543225/73370543225.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Altius Telecom",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/543225/68832543225.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "China Telecom Corp Ltd",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/27416"
+    }
+  ],
+  "China Unicom": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "China Unicom (Hong Kong) Ltd",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/27417"
+    }
+  ],
+  "Nippon Telegraph and Telephone": [],
+  "Vodafone Group": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fec0083d-97dd-49f6-9650-f10706e1b947.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8462c9b1-c21c-4047-80c9-0644b10a8f59.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e057298-108a-4137-ad3d-78d9130ad130.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/74211532822.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/72027532822.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/66740532822.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/5328220319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/5328220318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/5328220317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/5328220316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/5328220315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/5328220314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/5328220313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532822/5328220312.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Vodafone Idea",
+      "year": 2011,
+      "url": "https://archives.nseindia.com/annual_reports/AR_IDEA_2010_2011_09092011043232.zip"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Vodafone Group plc",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/12630"
+    }
+  ],
+  "Telef\u00f3nica": [
+    {
+      "source": "annualreports.com",
+      "matched_name": "Telenav",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/20052"
+    }
+  ],
+  "Reliance Jio": [
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2025,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5be605ee-f8e0-48a8-b221-9a6445053df7.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2024,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47fb78fc-9a12-4aeb-999a-697b2e8acea4.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2023,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2585ae1d-8998-4753-a9fa-3022d9e988a4.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2022,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/73191532939.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2021,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/69758532939.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2020,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/5329390320.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2019,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/5329390319.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2018,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/5329390318.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2017,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/5329390317.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2016,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/5329390316.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2015,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/5329390315.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2014,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/5329390314.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2013,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/5329390313.pdf"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2012,
+      "url": "https://archives.nseindia.com/annual_reports/AR_RPOWER_2011_2012_01012013123030.zip"
+    },
+    {
+      "source": "screener.in -> bseindia.com/nseindia.com",
+      "matched_name": "Reliance Power",
+      "year": 2012,
+      "url": "https://www.bseindia.com/bseplus/AnnualReport/532939/5329390312.pdf"
+    },
+    {
+      "source": "annualreports.com",
+      "matched_name": "Alliance Witan",
+      "year": null,
+      "url": "https://www.annualreports.com/Click/32148"
+    }
+  ]
+}
