@@ -1,0 +1,22 @@
+{
+  "source_pdf": "PepsiCo.pdf",
+  "total_pages": 154,
+  "total_chunks": 2,
+  "successful_chunks": 0,
+  "failed_chunks": 39,
+  "total_processing_time_seconds": 11.617894649505615,
+  "output_file": "PepsiCo_extracted.md",
+  "output_size_chars": 0,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 1,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}

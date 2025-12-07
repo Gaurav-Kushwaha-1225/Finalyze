@@ -1,0 +1,47 @@
+{
+  "source_pdf": "JD.com.pdf",
+  "total_pages": 529,
+  "total_chunks": 7,
+  "successful_chunks": 0,
+  "failed_chunks": 34,
+  "total_processing_time_seconds": 40.89074897766113,
+  "output_file": "JD.com_extracted.md",
+  "output_size_chars": 0,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 1,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 2,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 3,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 4,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 5,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 6,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}

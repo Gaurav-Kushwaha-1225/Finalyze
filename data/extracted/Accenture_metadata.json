@@ -1,0 +1,22 @@
+{
+  "source_pdf": "Accenture.pdf",
+  "total_pages": 123,
+  "total_chunks": 2,
+  "successful_chunks": 0,
+  "failed_chunks": 10,
+  "total_processing_time_seconds": 14.216683387756348,
+  "output_file": "Accenture_extracted.md",
+  "output_size_chars": 0,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 1,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}

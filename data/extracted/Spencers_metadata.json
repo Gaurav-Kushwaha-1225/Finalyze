@@ -1,0 +1,32 @@
+{
+  "source_pdf": "Spencers.pdf",
+  "total_pages": 258,
+  "total_chunks": 4,
+  "successful_chunks": 0,
+  "failed_chunks": 14,
+  "total_processing_time_seconds": 23.229711771011353,
+  "output_file": "Spencers_extracted.md",
+  "output_size_chars": 0,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 1,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 2,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 3,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}

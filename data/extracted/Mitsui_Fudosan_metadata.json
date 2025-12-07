@@ -1,0 +1,17 @@
+{
+  "source_pdf": "Mitsui_Fudosan.pdf",
+  "total_pages": 65,
+  "total_chunks": 1,
+  "successful_chunks": 0,
+  "failed_chunks": 35,
+  "total_processing_time_seconds": 5.9646618366241455,
+  "output_file": "Mitsui_Fudosan_extracted.md",
+  "output_size_chars": 0,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source_pdf": "Shriram_Properties.pdf",
+  "total_pages": 134,
+  "total_chunks": 2,
+  "successful_chunks": 0,
+  "failed_chunks": 25,
+  "total_processing_time_seconds": 11.78821325302124,
+  "output_file": "Shriram_Properties_extracted.md",
+  "output_size_chars": 0,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 1,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}

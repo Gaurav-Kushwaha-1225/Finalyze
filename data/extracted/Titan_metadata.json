@@ -1,0 +1,42 @@
+{
+  "source_pdf": "Titan.pdf",
+  "total_pages": 456,
+  "total_chunks": 6,
+  "successful_chunks": 0,
+  "failed_chunks": 20,
+  "total_processing_time_seconds": 35.10173583030701,
+  "output_file": "Titan_extracted.md",
+  "output_size_chars": 0,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 1,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 2,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 3,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 4,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 5,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}

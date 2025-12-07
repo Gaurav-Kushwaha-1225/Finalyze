@@ -1,0 +1,22 @@
+{
+  "source_pdf": "Cisco_Systems.pdf",
+  "total_pages": 128,
+  "total_chunks": 2,
+  "successful_chunks": 0,
+  "failed_chunks": 37,
+  "total_processing_time_seconds": 12.428376197814941,
+  "output_file": "Cisco_Systems_extracted.md",
+  "output_size_chars": 0,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 1,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source_pdf": "American_Tower_Corporation.pdf",
+  "total_pages": 168,
+  "total_chunks": 3,
+  "successful_chunks": 0,
+  "failed_chunks": 23,
+  "total_processing_time_seconds": 17.709614276885986,
+  "output_file": "American_Tower_Corporation_extracted.md",
+  "output_size_chars": 0,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 1,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 2,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}

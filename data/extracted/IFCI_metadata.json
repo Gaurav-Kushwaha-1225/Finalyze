@@ -1,0 +1,27 @@
+{
+  "source_pdf": "IFCI.pdf",
+  "total_pages": 231,
+  "total_chunks": 3,
+  "successful_chunks": 0,
+  "failed_chunks": 8,
+  "total_processing_time_seconds": 17.74280834197998,
+  "output_file": "IFCI_extracted.md",
+  "output_size_chars": 0,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 1,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 2,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}

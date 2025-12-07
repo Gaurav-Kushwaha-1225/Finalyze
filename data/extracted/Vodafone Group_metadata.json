@@ -1,0 +1,43 @@
+{
+  "source_pdf": "Vodafone Group.pdf",
+  "total_pages": 361,
+  "total_chunks": 5,
+  "successful_chunks": 3,
+  "failed_chunks": 2,
+  "total_processing_time_seconds": 180.4214141368866,
+  "output_file": "Vodafone Group.md",
+  "output_size_chars": 1036680,
+  "chunk_details": [
+    {
+      "chunk": 0,
+      "pages": "1-80",
+      "status": "success",
+      "chunks": 773,
+      "duration_ms": 18564
+    },
+    {
+      "chunk": 1,
+      "pages": "81-160",
+      "status": "success",
+      "chunks": 781,
+      "duration_ms": 25277
+    },
+    {
+      "chunk": 2,
+      "pages": "161-240",
+      "status": "success",
+      "chunks": 760,
+      "duration_ms": 35075
+    },
+    {
+      "chunk": 3,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    },
+    {
+      "chunk": 4,
+      "status": "failed",
+      "error": "Failed after 3 attempts"
+    }
+  ]
+}
