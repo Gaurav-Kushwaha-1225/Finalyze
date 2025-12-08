@@ -20,7 +20,7 @@ OUTPUT_DIR = "/home/friday_code/Desktop/Web Scrap - Finalyze/data/"
 
 
 def main(INPUT_PDF_PATH):
-    if "LARSEN" not in INPUT_PDF_PATH:
+    if "LARSEN" in INPUT_PDF_PATH:
         return
     # skip pdfs whose extraction are done, whose folders are in data/
     existing_folders = os.listdir(OUTPUT_DIR)
@@ -65,14 +65,13 @@ def main(INPUT_PDF_PATH):
 
     # Split if needed and process each resulting file
     pdf_files_to_process = split_pdf_if_needed(INPUT_PDF_PATH, max_pages=350)
-    pdf_files_to_process = [pdf_files_to_process[1]]
 
     for pdf_path in pdf_files_to_process:
         try:
             # 1. Build credentials
             credentials = ServicePrincipalCredentials(
-                client_id="a15d1319b94d4878aeea091ae3622915",
-                client_secret="p8e-3QffCRB8RJVAfqT_JIINWs-ANopjJvcs"
+                client_id="4df8576e7f2c4838947e3dfacb1f0dd8",
+                client_secret="p8e-8EywBPesIOE2dWgjsca9yz0cEOvHNN-z"
             )
 
             # 2. Create PDFServices client
