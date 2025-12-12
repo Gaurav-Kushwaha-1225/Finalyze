@@ -70,8 +70,8 @@ def main(INPUT_PDF_PATH):
         try:
             # 1. Build credentials
             credentials = ServicePrincipalCredentials(
-                client_id="4df8576e7f2c4838947e3dfacb1f0dd8",
-                client_secret="p8e-8EywBPesIOE2dWgjsca9yz0cEOvHNN-z"
+                client_id="cab51fc1e4ce4346b2181b8f1da8ab3b",
+                client_secret="p8e-XyoPbshvkqsdQvlv-8NNhsisPGxnRy45"
             )
 
             # 2. Create PDFServices client

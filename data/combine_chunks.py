@@ -2,23 +2,14 @@
 """
 Combine chunked company report folders into a single report folder.
 
-Behavior:
-- Detect folders with names like "Company_chunk_000", "Company_chunk_001", ...
-- For each company base name, merge their `structuredData.json` files:
-  - Concatenate `elements` arrays
-  - Concatenate `filePaths` arrays, updating paths to point to new `tables/` filenames
-  - Preserve other top-level fields from the first chunk
-- Copy table files from chunk folders into the combined `Company/ tables/` folder and rename them to avoid collisions.
-- Output the merged `structuredData.json` into the combined folder.
-
-Usage:
-    python3 combine_chunks.py
-
+Fixed version: Properly updates JSON element Path references to new table files.
 """
 import os
 import json
 import shutil
 from collections import defaultdict
+import re
+
 
 DATA_DIR = os.path.dirname(__file__)  # data/ folder
 
@@ -32,14 +23,12 @@ def find_chunk_folders(data_dir):
         path = os.path.join(data_dir, name)
         if not os.path.isdir(path):
             continue
-        # look for the pattern _chunk_
         if "_chunk_" in name:
             base = name.split("_chunk_")[0]
             chunks[base].append(path)
-    # sort chunk paths by chunk index if possible
+    
     for base, paths in chunks.items():
         def key(p):
-            # try to parse trailing chunk number
             try:
                 idx = int(os.path.basename(p).split("_chunk_")[-1])
                 return idx
@@ -61,92 +50,114 @@ def ensure_dir(path):
     os.makedirs(path, exist_ok=True)
 
 
+def get_table_files(chunk_path):
+    """Find all table files (CSV, XLSX, PNG) in chunk"""
+    tables_dir = os.path.join(chunk_path, "tables")
+    if not os.path.exists(tables_dir):
+        return []
+    
+    table_files = []
+    for ext in ["*.csv", "*.xlsx", "*.png"]:
+        table_files.extend(glob.glob(os.path.join(tables_dir, ext)))
+    return table_files
+
+
 def combine_company(base_name, chunk_paths):
-    print(f"\nCombining {base_name}: {len(chunk_paths)} chunks")
+    print(f"\n🔄 Combining {base_name}: {len(chunk_paths)} chunks")
+    
     combined_dir = os.path.join(DATA_DIR, base_name)
     combined_tables_dir = os.path.join(combined_dir, "tables")
     ensure_dir(combined_tables_dir)
-
+    
     combined = None
+    table_mapping = {}  # old_path -> new_path
     next_table_index = 0
-    new_filepaths = []
-
-    for chunk_path in chunk_paths:
+    
+    # Step 1: Process all chunks
+    for i, chunk_path in enumerate(chunk_paths):
+        print(f"  Processing chunk {i+1}/{len(chunk_paths)}: {os.path.basename(chunk_path)}")
         sd = load_structured(chunk_path)
         if sd is None:
-            print(f"  - Warning: no structuredData.json in {chunk_path}")
+            print(f"    ⚠️  No structuredData.json in {chunk_path}")
             continue
+            
         if combined is None:
-            # start with a shallow copy of the first structuredData
+            # Initialize with first chunk's metadata
             combined = dict(sd)
-            # we'll rebuild elements and filePaths
             combined["elements"] = []
             combined["filePaths"] = []
-        # merge elements
+        
+        # Step 2: Copy ALL table files (CSV, XLSX, PNG)
+        tables_dir = os.path.join(chunk_path, "tables")
+        if os.path.exists(tables_dir):
+            for filename in os.listdir(tables_dir):
+                if filename.lower().endswith(('.csv', '.xlsx', '.png')):
+                    src_table = os.path.join(tables_dir, filename)
+                    # Create unique name: company_table_XXXX_originalname.ext
+                    tgt_name = f"{base_name}_table_{next_table_index:04d}_{filename}"
+                    tgt_path = os.path.join(combined_tables_dir, tgt_name)
+                    shutil.copy2(src_table, tgt_path)
+                    
+                    # Map old path → new path
+                    old_relative_path = f"tables/{filename}"
+                    new_relative_path = f"tables/{tgt_name}"
+                    table_mapping[old_relative_path] = new_relative_path
+                    
+                    print(f"    📊 Copied table: {filename} → {tgt_name}")
+                    next_table_index += 1
+        
+        # Step 3: Merge elements (we'll fix paths later)
         elements = sd.get("elements", [])
-        # If elements contain references to file paths, their Path values may need updating later.
         combined["elements"].extend(elements)
-
-        # merge filePaths and copy table files
-        fps = sd.get("filePaths", [])
-        for fp in fps:
-            # only handle table files (paths that include /tables/)
-            if "/tables/" in fp:
-                filename = os.path.basename(fp)
-                src_table = os.path.join(chunk_path, "tables", filename)
-                if not os.path.exists(src_table):
-                    # sometimes tables might be nested differently; try basename in any tables folder
-                    found = None
-                    for root, _, files in os.walk(chunk_path):
-                        if "tables" in root and filename in files:
-                            found = os.path.join(root, filename)
-                            break
-                    if not found:
-                        print(f"  - Warning: table file {filename} not found in {chunk_path}")
-                        continue
-                    src_table = found
-                # create a unique name for target to avoid collisions
-                tgt_name = f"{base_name}_table_{next_table_index:04d}_{filename}"
-                tgt_path = os.path.join(combined_tables_dir, tgt_name)
-                shutil.copy2(src_table, tgt_path)
-                # update file path to point to the combined tables folder
-                new_fp = os.path.join("tables", tgt_name)
-                combined["filePaths"].append(new_fp)
-                new_filepaths.append(new_fp)
-                next_table_index += 1
-            else:
-                # keep other filePaths (figures etc.) but try to copy if present
-                src = os.path.join(chunk_path, os.path.basename(fp))
-                if os.path.exists(src):
-                    tgt_name = f"{base_name}_{os.path.basename(fp)}"
-                    tgt_path = os.path.join(combined_dir, tgt_name)
-                    shutil.copy2(src, tgt_path)
-                    combined["filePaths"].append(tgt_name)
-                else:
-                    # keep as-is
-                    combined["filePaths"].append(fp)
-
+    
     if combined is None:
-        print(f"  - No structured data found for {base_name}, skipping")
+        print(f"  ❌ No data found for {base_name}")
         return
-
-    # Optionally deduplicate elements by some key; for now keep order
-    # Write combined structuredData.json
+    
+    # Step 4: CRITICAL FIX - Update all Path references in elements
+    print(f"\n  🔧 Fixing {len(combined['elements'])} element paths...")
+    fixed_elements = 0
+    for element in combined["elements"]:
+        if "Path" in element:
+            old_path = element["Path"]
+            # Fix table references
+            for old_table_path, new_table_path in table_mapping.items():
+                if old_path == old_table_path or old_table_path in old_path:
+                    element["Path"] = new_table_path
+                    fixed_elements += 1
+                    break
+    
+    print(f"    ✓ Fixed {fixed_elements} table path references")
+    
+    # Step 5: Update filePaths array
+    combined["filePaths"] = list(table_mapping.values())
+    
+    # Step 6: Save combined JSON
     out_path = os.path.join(combined_dir, "structuredData.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(combined, f, ensure_ascii=False, indent=2)
-
-    print(f"  ✓ Wrote combined structuredData.json with {len(combined.get('elements', []))} elements and {len(combined.get('filePaths', []))} filePaths")
-    print(f"  ✓ Tables copied: {len(new_filepaths)} -> {combined_tables_dir}")
+    
+    print(f"  ✅ Combined: {len(combined['elements'])} elements, {len(table_mapping)} tables")
+    print(f"  📁 Output: {combined_dir}/")
+    print(f"  📊 Tables: {combined_tables_dir}/ ({next_table_index} total)")
 
 
 if __name__ == '__main__':
+    import glob  # Add this import for get_table_files
+    
     chunks = find_chunk_folders(DATA_DIR)
     if not chunks:
-        print("No chunk folders found in data/ (look for folders with '_chunk_')")
-        raise SystemExit(0)
-
+        print("❌ No chunk folders found (look for '_chunk_' folders)")
+        print("Example: LARSEN_&_TOUBRO_chunk_000/, LARSEN_&_TOUBRO_chunk_001/")
+        raise SystemExit(1)
+    
+    print(f"Found {len(chunks)} companies with chunks:")
+    for base, paths in chunks.items():
+        print(f"  - {base}: {len(paths)} chunks")
+    
+    total_tables = 0
     for base, paths in chunks.items():
         combine_company(base, paths)
-
-    print("\nDone.")
+        total_tables += len([f for p in paths for f in get_table_files(p)])
+    
+    print(f"\n🎉 Done! Combined {len(chunks)} companies, {total_tables} total tables.")
