@@ -36,7 +36,7 @@ logging.basicConfig(level=logging.INFO)
 class ExtractTextTableInfoWithRenditionsFromPDF:
     def __init__(self):
         try:
-            file = open('amazon.pdf', 'rb')
+            file = open('src/resources/extractPdfInput.pdf', 'rb')
             input_stream = file.read()
             file.close()
 
