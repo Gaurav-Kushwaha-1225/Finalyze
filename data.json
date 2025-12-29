@@ -2,7 +2,7 @@
     "ASHOKAMET": {
         "Company": "Ashoka Metaliks Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Metals & Mining",
         "pdf_path": "PDFs/ASHOKAMET_24-25.pdf",
         "xbrl_path": [
             "XBRLs/ASHOKAMET_24-25_Consolidated.xml",
@@ -14,7 +14,7 @@
     "ASHOKA": {
         "Company": "Ashoka Buildcon Limited",
         "year": "23-24",
-        "domain": "",
+        "domain": "Construction & Engineering",
         "pdf_path": "PDFs/ASHOKA_23-24.pdf",
         "xbrl_path": [
             "XBRLs/ASHOKA_23-24_Consolidated.xml",
@@ -26,7 +26,7 @@
     "ASHOKLEY": {
         "Company": "Ashok Leyland Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Automotive",
         "pdf_path": "PDFs/ASHOKLEY_24-25.pdf",
         "xbrl_path": [
             "XBRLs/ASHOKLEY_24-25_Consolidated.xml",
@@ -38,7 +38,7 @@
     "BAJAJ-AUTO": {
         "Company": "Bajaj Auto Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Automotive",
         "pdf_path": "PDFs/BAJAJ-AUTO_24-25.pdf",
         "xbrl_path": [
             "XBRLs/BAJAJ-AUTO_24-25_Consolidated.xml",
@@ -50,7 +50,7 @@
     "BAJAJHIND": {
         "Company": "Bajaj Hindusthan Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Chemicals & Fertilizers",
         "pdf_path": "PDFs/BAJAJHIND_24-25.pdf",
         "xbrl_path": [
             "XBRLs/BAJAJHIND_24-25_Consolidated.xml",
@@ -62,7 +62,7 @@
     "BOSCHLTD": {
         "Company": "Bosch Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Auto Components & Equipment",
         "pdf_path": "PDFs/BOSCHLTD_24-25.pdf",
         "xbrl_path": [
             "XBRLs/BOSCHLTD_24-25_Consolidated.xml",
@@ -74,7 +74,7 @@
     "BRITANNIA": {
         "Company": "Britannia Industries Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Food & Beverages",
         "pdf_path": "PDFs/BRITANNIA_24-25.pdf",
         "xbrl_path": [
             "XBRLs/BRITANNIA_24-25_Consolidated.xml",
@@ -86,7 +86,7 @@
     "CIPLA": {
         "Company": "Cipla Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Pharmaceuticals & Healthcare",
         "pdf_path": "PDFs/CIPLA_24-25.pdf",
         "xbrl_path": [
             "XBRLs/CIPLA_24-25_Consolidated.xml",
@@ -98,7 +98,7 @@
     "DABUR": {
         "Company": "Dabur India Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Personal Care & Home Products",
         "pdf_path": "PDFs/DABUR_24-25.pdf",
         "xbrl_path": [
             "XBRLs/DABUR_24-25_Consolidated.xml",
@@ -110,7 +110,7 @@
     "DRREDDY": {
         "Company": "Dr. Reddy's Laboratories Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Pharmaceuticals & Healthcare",
         "pdf_path": "PDFs/DRREDDY_24-25.pdf",
         "xbrl_path": [
             "XBRLs/DRREDDY_24-25_Consolidated.xml",
@@ -122,7 +122,7 @@
     "EICHERMOT": {
         "Company": "Eicher Motors Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Automotive",
         "pdf_path": "PDFs/EICHERMOT_24-25.pdf",
         "xbrl_path": [
             "XBRLs/EICHERMOT_24-25_Consolidated.xml",
@@ -134,7 +134,7 @@
     "GODREJPROP": {
         "Company": "Godrej Properties Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Real Estate & Construction",
         "pdf_path": "PDFs/GODREJPROP_24-25.pdf",
         "xbrl_path": [
             "XBRLs/GODREJPROP_24-25_Consolidated.xml",
@@ -146,7 +146,7 @@
     "HAL": {
         "Company": "Hindustan Aeronautics Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Aerospace & Defense",
         "pdf_path": "PDFs/HAL_24-25.pdf",
         "xbrl_path": [
             "XBRLs/HAL_24-25_Consolidated.xml",
@@ -158,7 +158,7 @@
     "HCC": {
         "Company": "Hindustan Construction Company Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Construction & Engineering",
         "pdf_path": "PDFs/HCC_24-25.pdf",
         "xbrl_path": [
             "XBRLs/HCC_24-25_Consolidated.xml",
@@ -170,7 +170,7 @@
     "HCL-INSYS": {
         "Company": "HCL Infosystems Limited",
         "year": "23-24",
-        "domain": "",
+        "domain": "Information Technology",
         "pdf_path": "PDFs/HCL-INSYS_23-24.pdf",
         "xbrl_path": [
             "XBRLs/HCL-INSYS_23-24_Consolidated.xml",
@@ -182,7 +182,7 @@
     "HEROMOTOCO": {
         "Company": "Hero MotoCorp Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Automotive",
         "pdf_path": "PDFs/HEROMOTOCO_24-25.pdf",
         "xbrl_path": [
             "XBRLs/HEROMOTOCO_24-25_Consolidated.xml",
@@ -194,7 +194,7 @@
     "HINDCOMPOS": {
         "Company": "Hindustan Composites Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Chemicals & Materials",
         "pdf_path": "PDFs/HINDCOMPOS_24-25.pdf",
         "xbrl_path": [
             "XBRLs/HINDCOMPOS_24-25_Consolidated.xml",
@@ -206,7 +206,7 @@
     "HINDOILEXP": {
         "Company": "Hindustan Oil Exploration Company Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Oil & Gas",
         "pdf_path": "PDFs/HINDOILEXP_24-25.pdf",
         "xbrl_path": [
             "XBRLs/HINDOILEXP_24-25_Consolidated.xml",
@@ -218,7 +218,7 @@
     "HINDPETRO": {
         "Company": "Hindustan Petroleum Corporation Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Oil & Gas",
         "pdf_path": "PDFs/HINDPETRO_24-25.pdf",
         "xbrl_path": [
             "XBRLs/HINDPETRO_24-25_Consolidated.xml",
@@ -230,7 +230,7 @@
     "HNDFDS": {
         "Company": "Hindustan Foods Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Food & Beverages",
         "pdf_path": "PDFs/HNDFDS_24-25.pdf",
         "xbrl_path": [
             "XBRLs/HNDFDS_24-25_Consolidated.xml",
@@ -242,7 +242,7 @@
     "ITC": {
         "Company": "ITC Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Diversified Conglomerate",
         "pdf_path": "PDFs/ITC_24-25.pdf",
         "xbrl_path": [
             "XBRLs/ITC_24-25_Consolidated.xml",
@@ -254,7 +254,7 @@
     "LUPIN": {
         "Company": "Lupin Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Pharmaceuticals & Healthcare",
         "pdf_path": "PDFs/LUPIN_24-25.pdf",
         "xbrl_path": [
             "XBRLs/LUPIN_24-25_Consolidated.xml",
@@ -266,7 +266,7 @@
     "M&M": {
         "Company": "Mahindra & Mahindra Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Automotive",
         "pdf_path": "PDFs/M&M_24-25.pdf",
         "xbrl_path": [
             "XBRLs/M&M_24-25_Consolidated.xml",
@@ -278,7 +278,7 @@
     "MAHEPC": {
         "Company": "MAHEPC Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Power & Energy",
         "pdf_path": "PDFs/MAHEPC_24-25.pdf",
         "xbrl_path": [
             "XBRLs/MAHEPC_24-25_Consolidated.xml",
@@ -290,7 +290,7 @@
     "MAHLIFE": {
         "Company": "Mah Life / MAHLIFE",
         "year": "24-25",
-        "domain": "",
+        "domain": "Insurance & Financial Services",
         "pdf_path": "PDFs/MAHLIFE_24-25.pdf",
         "xbrl_path": [
             "XBRLs/MAHLIFE_24-25_Consolidated.xml",
@@ -302,7 +302,7 @@
     "MAHLOG": {
         "Company": "Mahindra Logistics Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Logistics & Supply Chain",
         "pdf_path": "PDFs/MAHLOG_24-25.pdf",
         "xbrl_path": [
             "XBRLs/MAHLOG_24-25_Consolidated.xml",
@@ -314,7 +314,7 @@
     "MARICO": {
         "Company": "Marico Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Personal Care & Home Products",
         "pdf_path": "PDFs/MARICO_24-25.pdf",
         "xbrl_path": [
             "XBRLs/MARICO_24-25_Consolidated.xml",
@@ -326,7 +326,7 @@
     "MARUTI": {
         "Company": "Maruti Suzuki India Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Automotive",
         "pdf_path": "PDFs/MARUTI_24-25.pdf",
         "xbrl_path": [
             "XBRLs/MARUTI_24-25_Consolidated.xml",
@@ -338,7 +338,7 @@
     "MHRIL": {
         "Company": "MHRIL Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Machinery & Equipment",
         "pdf_path": "PDFs/MHRIL_24-25.pdf",
         "xbrl_path": [
             "XBRLs/MHRIL_24-25_Consolidated.xml",
@@ -350,7 +350,7 @@
     "MPHASIS": {
         "Company": "Mphasis Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Information Technology",
         "pdf_path": "PDFs/MPHASIS_24-25.pdf",
         "xbrl_path": [
             "XBRLs/MPHASIS_24-25_Consolidated.xml",
@@ -362,7 +362,7 @@
     "MSUMI": {
         "Company": "Motherson Sumi Systems (MSUMI)",
         "year": "24-25",
-        "domain": "",
+        "domain": "Auto Components & Equipment",
         "pdf_path": "PDFs/MSUMI_24-25.pdf",
         "xbrl_path": [
             "XBRLs/MSUMI_24-25_Standalone.xml"
@@ -373,7 +373,7 @@
     "NESTLEIND": {
         "Company": "Nestle India Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Food & Beverages",
         "pdf_path": "PDFs/NESTLEIND_24-25.pdf",
         "xbrl_path": [
             "XBRLs/NESTLEIND_24-25_Consolidated.xml",
@@ -385,7 +385,7 @@
     "OFSS": {
         "Company": "Oracle Financial Services Software Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Information Technology",
         "pdf_path": "PDFs/OFSS_24-25.pdf",
         "xbrl_path": [
             "XBRLs/OFSS_24-25_Consolidated.xml",
@@ -397,7 +397,7 @@
     "ONGC": {
         "Company": "Oil and Natural Gas Corporation Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Oil & Gas",
         "pdf_path": "PDFs/ONGC_24-25.pdf",
         "xbrl_path": [
             "XBRLs/ONGC_24-25_Consolidated.xml",
@@ -409,7 +409,7 @@
     "RELIANCE": {
         "Company": "Reliance Industries Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Diversified Conglomerate",
         "pdf_path": "PDFs/RELIANCE_24-25.pdf",
         "xbrl_path": [
             "XBRLs/RELIANCE_24-25_Consolidated.xml",
@@ -421,7 +421,7 @@
     "RIIL": {
         "Company": "RIIL Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Manufacturing & Machinery",
         "pdf_path": "PDFs/RIIL_24-25.pdf",
         "xbrl_path": [
             "XBRLs/RIIL_24-25_Consolidated.xml",
@@ -433,7 +433,7 @@
     "RPOWER": {
         "Company": "Reliance Power Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Power & Energy",
         "pdf_path": "PDFs/RPOWER_24-25.pdf",
         "xbrl_path": [
             "XBRLs/RPOWER_24-25_Consolidated.xml",
@@ -445,7 +445,7 @@
     "SUNPHARMA": {
         "Company": "Sun Pharmaceutical Industries Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Pharmaceuticals & Healthcare",
         "pdf_path": "PDFs/SUNPHARMA_24-25.pdf",
         "xbrl_path": [
             "XBRLs/SUNPHARMA_24-25_Consolidated.xml",
@@ -457,7 +457,7 @@
     "TATACHEM": {
         "Company": "Tata Chemicals Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Chemicals & Fertilizers",
         "pdf_path": "PDFs/TATACHEM_24-25.pdf",
         "xbrl_path": [
             "XBRLs/TATACHEM_24-25_Consolidated.xml",
@@ -469,7 +469,7 @@
     "TATACOMM": {
         "Company": "Tata Communications Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Telecommunications & Services",
         "pdf_path": "PDFs/TATACOMM_24-25.pdf",
         "xbrl_path": [
             "XBRLs/TATACOMM_24-25_Consolidated.xml",
@@ -481,7 +481,7 @@
     "TATACONSUM": {
         "Company": "Tata Consumer Products Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Food & Beverages",
         "pdf_path": "PDFs/TATACONSUM_24-25.pdf",
         "xbrl_path": [
             "XBRLs/TATACONSUM_24-25_Consolidated.xml",
@@ -493,7 +493,7 @@
     "TATASTEEL": {
         "Company": "Tata Steel Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Metals & Mining",
         "pdf_path": "PDFs/TATASTEEL_24-25.pdf",
         "xbrl_path": [
             "XBRLs/TATASTEEL_24-25_Consolidated.xml",
@@ -505,7 +505,7 @@
     "TATATECH": {
         "Company": "Tata Technologies Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Information Technology",
         "pdf_path": "PDFs/TATATECH_24-25.pdf",
         "xbrl_path": [
             "XBRLs/TATATECH_24-25_Consolidated.xml",
@@ -517,7 +517,7 @@
     "TCS": {
         "Company": "Tata Consultancy Services Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Information Technology",
         "pdf_path": "PDFs/TCS_24-25.pdf",
         "xbrl_path": [
             "XBRLs/TCS_24-25_Consolidated.xml",
@@ -529,7 +529,7 @@
     "TECHM": {
         "Company": "Tech Mahindra Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Information Technology",
         "pdf_path": "PDFs/TECHM_24-25.pdf",
         "xbrl_path": [
             "XBRLs/TECHM_24-25_Consolidated.xml",
@@ -541,7 +541,7 @@
     "TORNTPHARM": {
         "Company": "Torrent Pharmaceuticals Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Pharmaceuticals & Healthcare",
         "pdf_path": "PDFs/TORNTPHARM_24-25.pdf",
         "xbrl_path": [
             "XBRLs/TORNTPHARM_24-25_Consolidated.xml",
@@ -553,7 +553,7 @@
     "TVSMOTOR": {
         "Company": "TVS Motor Company Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Automotive",
         "pdf_path": "PDFs/TVSMOTOR_24-25.pdf",
         "xbrl_path": [
             "XBRLs/TVSMOTOR_24-25_Consolidated.xml",
@@ -565,7 +565,7 @@
     "TVSSRICHAK": {
         "Company": "TVS Srichakra Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Automotive",
         "pdf_path": "PDFs/TVSSRICHAK_24-25.pdf",
         "xbrl_path": [
             "XBRLs/TVSSRICHAK_24-25_Consolidated.xml",
@@ -577,7 +577,7 @@
     "WIPRO": {
         "Company": "Wipro Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Information Technology",
         "pdf_path": "PDFs/WIPRO_24-25.pdf",
         "xbrl_path": [
             "XBRLs/WIPRO_24-25_Consolidated.xml",
@@ -589,7 +589,7 @@
     "ZYDUSWELL": {
         "Company": "Zydus Wellness Limited",
         "year": "24-25",
-        "domain": "",
+        "domain": "Personal Care & Home Products",
         "pdf_path": "PDFs/ZYDUSWELL_24-25.pdf",
         "xbrl_path": [
             "XBRLs/ZYDUSWELL_24-25_Consolidated.xml",
