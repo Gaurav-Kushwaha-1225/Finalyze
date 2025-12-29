@@ -1,0 +1,601 @@
+{
+    "ASHOKAMET": {
+        "Company": "Ashoka Metaliks Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/ASHOKAMET_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/ASHOKAMET_24-25_Consolidated.xml",
+            "XBRLs/ASHOKAMET_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "ASHOKA": {
+        "Company": "Ashoka Buildcon Limited",
+        "year": "23-24",
+        "domain": "",
+        "pdf_path": "PDFs/ASHOKA_23-24.pdf",
+        "xbrl_path": [
+            "XBRLs/ASHOKA_23-24_Consolidated.xml",
+            "XBRLs/ASHOKA_23-24_Standalone.xml"
+        ],
+        "file_type": "eval",
+        "is_conglomerate": false
+    },
+    "ASHOKLEY": {
+        "Company": "Ashok Leyland Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/ASHOKLEY_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/ASHOKLEY_24-25_Consolidated.xml",
+            "XBRLs/ASHOKLEY_24-25_Standalone.xml"
+        ],
+        "file_type": "test",
+        "is_conglomerate": false
+    },
+    "BAJAJ-AUTO": {
+        "Company": "Bajaj Auto Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/BAJAJ-AUTO_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/BAJAJ-AUTO_24-25_Consolidated.xml",
+            "XBRLs/BAJAJ-AUTO_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "BAJAJHIND": {
+        "Company": "Bajaj Hindusthan Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/BAJAJHIND_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/BAJAJHIND_24-25_Consolidated.xml",
+            "XBRLs/BAJAJHIND_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "BOSCHLTD": {
+        "Company": "Bosch Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/BOSCHLTD_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/BOSCHLTD_24-25_Consolidated.xml",
+            "XBRLs/BOSCHLTD_24-25_Standalone.xml"
+        ],
+        "file_type": "eval",
+        "is_conglomerate": false
+    },
+    "BRITANNIA": {
+        "Company": "Britannia Industries Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/BRITANNIA_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/BRITANNIA_24-25_Consolidated.xml",
+            "XBRLs/BRITANNIA_24-25_Standalone.xml"
+        ],
+        "file_type": "eval",
+        "is_conglomerate": false
+    },
+    "CIPLA": {
+        "Company": "Cipla Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/CIPLA_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/CIPLA_24-25_Consolidated.xml",
+            "XBRLs/CIPLA_24-25_Standalone.xml"
+        ],
+        "file_type": "eval",
+        "is_conglomerate": false
+    },
+    "DABUR": {
+        "Company": "Dabur India Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/DABUR_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/DABUR_24-25_Consolidated.xml",
+            "XBRLs/DABUR_24-25_Standalone.xml"
+        ],
+        "file_type": "eval",
+        "is_conglomerate": false
+    },
+    "DRREDDY": {
+        "Company": "Dr. Reddy's Laboratories Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/DRREDDY_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/DRREDDY_24-25_Consolidated.xml",
+            "XBRLs/DRREDDY_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "EICHERMOT": {
+        "Company": "Eicher Motors Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/EICHERMOT_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/EICHERMOT_24-25_Consolidated.xml",
+            "XBRLs/EICHERMOT_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "GODREJPROP": {
+        "Company": "Godrej Properties Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/GODREJPROP_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/GODREJPROP_24-25_Consolidated.xml",
+            "XBRLs/GODREJPROP_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "HAL": {
+        "Company": "Hindustan Aeronautics Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/HAL_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/HAL_24-25_Consolidated.xml",
+            "XBRLs/HAL_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "HCC": {
+        "Company": "Hindustan Construction Company Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/HCC_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/HCC_24-25_Consolidated.xml",
+            "XBRLs/HCC_24-25_Standalone.xml"
+        ],
+        "file_type": "test",
+        "is_conglomerate": false
+    },
+    "HCL-INSYS": {
+        "Company": "HCL Infosystems Limited",
+        "year": "23-24",
+        "domain": "",
+        "pdf_path": "PDFs/HCL-INSYS_23-24.pdf",
+        "xbrl_path": [
+            "XBRLs/HCL-INSYS_23-24_Consolidated.xml",
+            "XBRLs/HCL-INSYS_23-24_Standalone.xml"
+        ],
+        "file_type": "eval",
+        "is_conglomerate": false
+    },
+    "HEROMOTOCO": {
+        "Company": "Hero MotoCorp Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/HEROMOTOCO_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/HEROMOTOCO_24-25_Consolidated.xml",
+            "XBRLs/HEROMOTOCO_24-25_Standalone.xml"
+        ],
+        "file_type": "eval",
+        "is_conglomerate": false
+    },
+    "HINDCOMPOS": {
+        "Company": "Hindustan Composites Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/HINDCOMPOS_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/HINDCOMPOS_24-25_Consolidated.xml",
+            "XBRLs/HINDCOMPOS_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "HINDOILEXP": {
+        "Company": "Hindustan Oil Exploration Company Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/HINDOILEXP_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/HINDOILEXP_24-25_Consolidated.xml",
+            "XBRLs/HINDOILEXP_24-25_Standalone.xml"
+        ],
+        "file_type": "eval",
+        "is_conglomerate": false
+    },
+    "HINDPETRO": {
+        "Company": "Hindustan Petroleum Corporation Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/HINDPETRO_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/HINDPETRO_24-25_Consolidated.xml",
+            "XBRLs/HINDPETRO_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "HNDFDS": {
+        "Company": "Hindustan Foods Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/HNDFDS_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/HNDFDS_24-25_Consolidated.xml",
+            "XBRLs/HNDFDS_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "ITC": {
+        "Company": "ITC Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/ITC_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/ITC_24-25_Consolidated.xml",
+            "XBRLs/ITC_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": true
+    },
+    "LUPIN": {
+        "Company": "Lupin Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/LUPIN_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/LUPIN_24-25_Consolidated.xml",
+            "XBRLs/LUPIN_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "M&M": {
+        "Company": "Mahindra & Mahindra Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/M&M_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/M&M_24-25_Consolidated.xml",
+            "XBRLs/M&M_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "MAHEPC": {
+        "Company": "MAHEPC Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/MAHEPC_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/MAHEPC_24-25_Consolidated.xml",
+            "XBRLs/MAHEPC_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "MAHLIFE": {
+        "Company": "Mah Life / MAHLIFE",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/MAHLIFE_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/MAHLIFE_24-25_Consolidated.xml",
+            "XBRLs/MAHLIFE_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "MAHLOG": {
+        "Company": "Mahindra Logistics Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/MAHLOG_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/MAHLOG_24-25_Consolidated.xml",
+            "XBRLs/MAHLOG_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "MARICO": {
+        "Company": "Marico Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/MARICO_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/MARICO_24-25_Consolidated.xml",
+            "XBRLs/MARICO_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "MARUTI": {
+        "Company": "Maruti Suzuki India Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/MARUTI_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/MARUTI_24-25_Consolidated.xml",
+            "XBRLs/MARUTI_24-25_Standalone.xml"
+        ],
+        "file_type": "test",
+        "is_conglomerate": false
+    },
+    "MHRIL": {
+        "Company": "MHRIL Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/MHRIL_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/MHRIL_24-25_Consolidated.xml",
+            "XBRLs/MHRIL_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "MPHASIS": {
+        "Company": "Mphasis Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/MPHASIS_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/MPHASIS_24-25_Consolidated.xml",
+            "XBRLs/MPHASIS_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "MSUMI": {
+        "Company": "Motherson Sumi Systems (MSUMI)",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/MSUMI_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/MSUMI_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "NESTLEIND": {
+        "Company": "Nestle India Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/NESTLEIND_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/NESTLEIND_24-25_Consolidated.xml",
+            "XBRLs/NESTLEIND_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "OFSS": {
+        "Company": "Oracle Financial Services Software Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/OFSS_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/OFSS_24-25_Consolidated.xml",
+            "XBRLs/OFSS_24-25_Standalone.xml"
+        ],
+        "file_type": "test",
+        "is_conglomerate": false
+    },
+    "ONGC": {
+        "Company": "Oil and Natural Gas Corporation Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/ONGC_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/ONGC_24-25_Consolidated.xml",
+            "XBRLs/ONGC_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "RELIANCE": {
+        "Company": "Reliance Industries Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/RELIANCE_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/RELIANCE_24-25_Consolidated.xml",
+            "XBRLs/RELIANCE_24-25_Standalone.xml"
+        ],
+        "file_type": "eval",
+        "is_conglomerate": true
+    },
+    "RIIL": {
+        "Company": "RIIL Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/RIIL_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/RIIL_24-25_Consolidated.xml",
+            "XBRLs/RIIL_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "RPOWER": {
+        "Company": "Reliance Power Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/RPOWER_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/RPOWER_24-25_Consolidated.xml",
+            "XBRLs/RPOWER_24-25_Standalone.xml"
+        ],
+        "file_type": "test",
+        "is_conglomerate": false
+    },
+    "SUNPHARMA": {
+        "Company": "Sun Pharmaceutical Industries Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/SUNPHARMA_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/SUNPHARMA_24-25_Consolidated.xml",
+            "XBRLs/SUNPHARMA_24-25_Standalone.xml"
+        ],
+        "file_type": "test",
+        "is_conglomerate": false
+    },
+    "TATACHEM": {
+        "Company": "Tata Chemicals Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/TATACHEM_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/TATACHEM_24-25_Consolidated.xml",
+            "XBRLs/TATACHEM_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "TATACOMM": {
+        "Company": "Tata Communications Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/TATACOMM_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/TATACOMM_24-25_Consolidated.xml",
+            "XBRLs/TATACOMM_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "TATACONSUM": {
+        "Company": "Tata Consumer Products Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/TATACONSUM_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/TATACONSUM_24-25_Consolidated.xml",
+            "XBRLs/TATACONSUM_24-25_Standalone.xml"
+        ],
+        "file_type": "eval",
+        "is_conglomerate": false
+    },
+    "TATASTEEL": {
+        "Company": "Tata Steel Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/TATASTEEL_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/TATASTEEL_24-25_Consolidated.xml",
+            "XBRLs/TATASTEEL_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "TATATECH": {
+        "Company": "Tata Technologies Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/TATATECH_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/TATATECH_24-25_Consolidated.xml",
+            "XBRLs/TATATECH_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "TCS": {
+        "Company": "Tata Consultancy Services Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/TCS_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/TCS_24-25_Consolidated.xml",
+            "XBRLs/TCS_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "TECHM": {
+        "Company": "Tech Mahindra Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/TECHM_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/TECHM_24-25_Consolidated.xml",
+            "XBRLs/TECHM_24-25_Standalone.xml"
+        ],
+        "file_type": "test",
+        "is_conglomerate": false
+    },
+    "TORNTPHARM": {
+        "Company": "Torrent Pharmaceuticals Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/TORNTPHARM_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/TORNTPHARM_24-25_Consolidated.xml",
+            "XBRLs/TORNTPHARM_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "TVSMOTOR": {
+        "Company": "TVS Motor Company Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/TVSMOTOR_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/TVSMOTOR_24-25_Consolidated.xml",
+            "XBRLs/TVSMOTOR_24-25_Standalone.xml"
+        ],
+        "file_type": "test",
+        "is_conglomerate": false
+    },
+    "TVSSRICHAK": {
+        "Company": "TVS Srichakra Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/TVSSRICHAK_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/TVSSRICHAK_24-25_Consolidated.xml",
+            "XBRLs/TVSSRICHAK_24-25_Standalone.xml"
+        ],
+        "file_type": "test",
+        "is_conglomerate": false
+    },
+    "WIPRO": {
+        "Company": "Wipro Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/WIPRO_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/WIPRO_24-25_Consolidated.xml",
+            "XBRLs/WIPRO_24-25_Standalone.xml"
+        ],
+        "file_type": "train",
+        "is_conglomerate": false
+    },
+    "ZYDUSWELL": {
+        "Company": "Zydus Wellness Limited",
+        "year": "24-25",
+        "domain": "",
+        "pdf_path": "PDFs/ZYDUSWELL_24-25.pdf",
+        "xbrl_path": [
+            "XBRLs/ZYDUSWELL_24-25_Consolidated.xml",
+            "XBRLs/ZYDUSWELL_24-25_Standalone.xml"
+        ],
+        "file_type": "test",
+        "is_conglomerate": false
+    }
+}
