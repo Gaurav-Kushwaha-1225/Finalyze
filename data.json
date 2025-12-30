@@ -9,7 +9,11 @@
             "XBRLs/ASHOKAMET_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ASHOKAMET_23102025182315.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ASHOKAMET_23102025182159.xml"
+        }
     },
     "ASHOKA": {
         "Company": "Ashoka Buildcon Limited",
@@ -21,7 +25,11 @@
             "XBRLs/ASHOKA_23-24_Standalone.xml"
         ],
         "file_type": "eval",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ASHOKA_04042025102957.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ASHOKA_04042025102522.xml"
+        }
     },
     "ASHOKLEY": {
         "Company": "Ashok Leyland Limited",
@@ -33,7 +41,11 @@
             "XBRLs/ASHOKLEY_24-25_Standalone.xml"
         ],
         "file_type": "test",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ASHOKLEY_24092025174606.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ASHOKLEY_24092025174456.xml"
+        }
     },
     "BAJAJ-AUTO": {
         "Company": "Bajaj Auto Limited",
@@ -45,7 +57,11 @@
             "XBRLs/BAJAJ-AUTO_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_BAJAJ-AUTO_23092025112016.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_BAJAJ-AUTO_23092025112103.xml"
+        }
     },
     "BAJAJHIND": {
         "Company": "Bajaj Hindusthan Limited",
@@ -57,7 +73,11 @@
             "XBRLs/BAJAJHIND_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_BAJAJHIND_07102025141608.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_BAJAJHIND_07102025141503.xml"
+        }
     },
     "BOSCHLTD": {
         "Company": "Bosch Limited",
@@ -69,7 +89,11 @@
             "XBRLs/BOSCHLTD_24-25_Standalone.xml"
         ],
         "file_type": "eval",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_BOSCHLTD_15092025140434.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_BOSCHLTD_15092025140320.xml"
+        }
     },
     "BRITANNIA": {
         "Company": "Britannia Industries Limited",
@@ -81,7 +105,11 @@
             "XBRLs/BRITANNIA_24-25_Standalone.xml"
         ],
         "file_type": "eval",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_BRITANNIA_09092025225808.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_BRITANNIA_09092025225704.xml"
+        }
     },
     "CIPLA": {
         "Company": "Cipla Limited",
@@ -93,7 +121,11 @@
             "XBRLs/CIPLA_24-25_Standalone.xml"
         ],
         "file_type": "eval",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_CIPLA_27092025235110.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_CIPLA_27092025234951.xml"
+        }
     },
     "DABUR": {
         "Company": "Dabur India Limited",
@@ -105,7 +137,11 @@
             "XBRLs/DABUR_24-25_Standalone.xml"
         ],
         "file_type": "eval",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_DABUR_11092025112506.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_DABUR_11092025112336.xml"
+        }
     },
     "DRREDDY": {
         "Company": "Dr. Reddy's Laboratories Limited",
@@ -117,7 +153,11 @@
             "XBRLs/DRREDDY_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_DRREDDY_25082025153949.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_DRREDDY_25082025154156.xml"
+        }
     },
     "EICHERMOT": {
         "Company": "Eicher Motors Limited",
@@ -129,7 +169,11 @@
             "XBRLs/EICHERMOT_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_EICHERMOT_19092025183008.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_EICHERMOT_19092025182907.xml"
+        }
     },
     "GODREJPROP": {
         "Company": "Godrej Properties Limited",
@@ -141,7 +185,11 @@
             "XBRLs/GODREJPROP_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_GODREJPROP_29082025195132.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_GODREJPROP_29082025195018.xml"
+        }
     },
     "HAL": {
         "Company": "Hindustan Aeronautics Limited",
@@ -153,7 +201,11 @@
             "XBRLs/HAL_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HAL_26092025103453.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HAL_26092025103403.xml"
+        }
     },
     "HCC": {
         "Company": "Hindustan Construction Company Limited",
@@ -165,7 +217,11 @@
             "XBRLs/HCC_24-25_Standalone.xml"
         ],
         "file_type": "test",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HCC_15102025172001.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HCC_15102025171946.xml"
+        }
     },
     "HCL-INSYS": {
         "Company": "HCL Infosystems Limited",
@@ -177,7 +233,11 @@
             "XBRLs/HCL-INSYS_23-24_Standalone.xml"
         ],
         "file_type": "eval",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HCL-INSYS_03042025155710.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HCL-INSYS_03042025155510.xml"
+        }
     },
     "HEROMOTOCO": {
         "Company": "Hero MotoCorp Limited",
@@ -189,7 +249,11 @@
             "XBRLs/HEROMOTOCO_24-25_Standalone.xml"
         ],
         "file_type": "eval",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HEROMOTOCO_29082025231845.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HEROMOTOCO_29082025231714.xml"
+        }
     },
     "HINDCOMPOS": {
         "Company": "Hindustan Composites Limited",
@@ -201,7 +265,11 @@
             "XBRLs/HINDCOMPOS_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HINDCOMPOS_24102025172840.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HINDCOMPOS_24102025172807.xml"
+        }
     },
     "HINDOILEXP": {
         "Company": "Hindustan Oil Exploration Company Limited",
@@ -213,7 +281,11 @@
             "XBRLs/HINDOILEXP_24-25_Standalone.xml"
         ],
         "file_type": "eval",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HINDOILEXP_14102025194542.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HINDOILEXP_14102025194522.xml"
+        }
     },
     "HINDPETRO": {
         "Company": "Hindustan Petroleum Corporation Limited",
@@ -225,7 +297,11 @@
             "XBRLs/HINDPETRO_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HINDPETRO_07102025100834.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HINDPETRO_07102025100648.xml"
+        }
     },
     "HNDFDS": {
         "Company": "Hindustan Foods Limited",
@@ -237,7 +313,11 @@
             "XBRLs/HNDFDS_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HNDFDS_18102025133802.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_HNDFDS_18102025133914.xml"
+        }
     },
     "ITC": {
         "Company": "ITC Limited",
@@ -249,7 +329,11 @@
             "XBRLs/ITC_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": true
+        "is_conglomerate": true,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ITC_27082025082306.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ITC_27082025082157.xml"
+        }
     },
     "LUPIN": {
         "Company": "Lupin Limited",
@@ -261,7 +345,11 @@
             "XBRLs/LUPIN_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_LUPIN_09092025203336.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_LUPIN_09092025203135.xml"
+        }
     },
     "M&M": {
         "Company": "Mahindra & Mahindra Limited",
@@ -273,7 +361,11 @@
             "XBRLs/M&M_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_M&M_27082025153611.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_M&M_27082025153402.xml"
+        }
     },
     "MAHEPC": {
         "Company": "MAHEPC Limited",
@@ -285,7 +377,11 @@
             "XBRLs/MAHEPC_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MAHEPC_24112025163415.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MAHEPC_24112025163320.xml"
+        }
     },
     "MAHLIFE": {
         "Company": "Mah Life / MAHLIFE",
@@ -297,7 +393,11 @@
             "XBRLs/MAHLIFE_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MAHLIFE_25082025153622.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MAHLIFE_25082025153437.xml"
+        }
     },
     "MAHLOG": {
         "Company": "Mahindra Logistics Limited",
@@ -309,7 +409,11 @@
             "XBRLs/MAHLOG_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MAHLOG_25082025143540.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MAHLOG_25082025143504.xml"
+        }
     },
     "MARICO": {
         "Company": "Marico Limited",
@@ -321,7 +425,11 @@
             "XBRLs/MARICO_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MARICO_05092025183523.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MARICO_05092025183243.xml"
+        }
     },
     "MARUTI": {
         "Company": "Maruti Suzuki India Limited",
@@ -333,7 +441,11 @@
             "XBRLs/MARUTI_24-25_Standalone.xml"
         ],
         "file_type": "test",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MARUTI_26092025172219.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MARUTI_26092025172138.xml"
+        }
     },
     "MHRIL": {
         "Company": "MHRIL Limited",
@@ -345,7 +457,11 @@
             "XBRLs/MHRIL_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MHRIL_25082025114057.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MHRIL_25082025114021.xml"
+        }
     },
     "MPHASIS": {
         "Company": "Mphasis Limited",
@@ -357,7 +473,11 @@
             "XBRLs/MPHASIS_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MPHASIS_22082025155339.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MPHASIS_22082025155515.xml"
+        }
     },
     "MSUMI": {
         "Company": "Motherson Sumi Systems (MSUMI)",
@@ -368,7 +488,10 @@
             "XBRLs/MSUMI_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_MSUMI_01102025162133.xml"
+        }
     },
     "NESTLEIND": {
         "Company": "Nestle India Limited",
@@ -380,7 +503,11 @@
             "XBRLs/NESTLEIND_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_NESTLEIND_18082025153714.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_NESTLEIND_18082025153519.xml"
+        }
     },
     "OFSS": {
         "Company": "Oracle Financial Services Software Limited",
@@ -392,7 +519,11 @@
             "XBRLs/OFSS_24-25_Standalone.xml"
         ],
         "file_type": "test",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_OFSS_25082025115907.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_OFSS_25082025115828.xml"
+        }
     },
     "ONGC": {
         "Company": "Oil and Natural Gas Corporation Limited",
@@ -404,7 +535,11 @@
             "XBRLs/ONGC_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ONGC_13112025124937.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ONGC_13112025124858.xml"
+        }
     },
     "RELIANCE": {
         "Company": "Reliance Industries Limited",
@@ -416,7 +551,11 @@
             "XBRLs/RELIANCE_24-25_Standalone.xml"
         ],
         "file_type": "eval",
-        "is_conglomerate": true
+        "is_conglomerate": true,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_RELIANCE_05122025134344.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_RELIANCE_05122025134153.xml"
+        }
     },
     "RIIL": {
         "Company": "RIIL Limited",
@@ -428,7 +567,11 @@
             "XBRLs/RIIL_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_RIIL_25072025192913.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_RIIL_25072025192827.xml"
+        }
     },
     "RPOWER": {
         "Company": "Reliance Power Limited",
@@ -440,7 +583,11 @@
             "XBRLs/RPOWER_24-25_Standalone.xml"
         ],
         "file_type": "test",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_RPOWER_06092025221905.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_RPOWER_06092025221736.xml"
+        }
     },
     "SUNPHARMA": {
         "Company": "Sun Pharmaceutical Industries Limited",
@@ -452,7 +599,11 @@
             "XBRLs/SUNPHARMA_24-25_Standalone.xml"
         ],
         "file_type": "test",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_SUNPHARMA_29082025191237.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_SUNPHARMA_29082025191124.xml"
+        }
     },
     "TATACHEM": {
         "Company": "Tata Chemicals Limited",
@@ -464,7 +615,11 @@
             "XBRLs/TATACHEM_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TATACHEM_15082025143252.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TATACHEM_15082025143127.xml"
+        }
     },
     "TATACOMM": {
         "Company": "Tata Communications Limited",
@@ -476,7 +631,11 @@
             "XBRLs/TATACOMM_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TATACOMM_11082025165346.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TATACOMM_11082025165256.xml"
+        }
     },
     "TATACONSUM": {
         "Company": "Tata Consumer Products Limited",
@@ -488,7 +647,11 @@
             "XBRLs/TATACONSUM_24-25_Standalone.xml"
         ],
         "file_type": "eval",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TATACONSUM_25082025125928.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TATACONSUM_25082025125650.xml"
+        }
     },
     "TATASTEEL": {
         "Company": "Tata Steel Limited",
@@ -500,7 +663,11 @@
             "XBRLs/TATASTEEL_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TATASTEEL_17082025145803.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TATASTEEL_17082025145701.xml"
+        }
     },
     "TATATECH": {
         "Company": "Tata Technologies Limited",
@@ -512,7 +679,11 @@
             "XBRLs/TATATECH_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TATATECH_25072025181546.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TATATECH_25072025181355.xml"
+        }
     },
     "TCS": {
         "Company": "Tata Consultancy Services Limited",
@@ -524,7 +695,11 @@
             "XBRLs/TCS_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TCS_14082025184751.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TCS_14082025184642.xml"
+        }
     },
     "TECHM": {
         "Company": "Tech Mahindra Limited",
@@ -536,7 +711,11 @@
             "XBRLs/TECHM_24-25_Standalone.xml"
         ],
         "file_type": "test",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TECHM_14082025235248.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TECHM_14082025235143.xml"
+        }
     },
     "TORNTPHARM": {
         "Company": "Torrent Pharmaceuticals Limited",
@@ -548,7 +727,11 @@
             "XBRLs/TORNTPHARM_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TORNTPHARM_01092025102052.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TORNTPHARM_01092025102011.xml"
+        }
     },
     "TVSMOTOR": {
         "Company": "TVS Motor Company Limited",
@@ -560,7 +743,11 @@
             "XBRLs/TVSMOTOR_24-25_Standalone.xml"
         ],
         "file_type": "test",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TVSMOTOR_29092025110837.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TVSMOTOR_29092025110716.xml"
+        }
     },
     "TVSSRICHAK": {
         "Company": "TVS Srichakra Limited",
@@ -572,7 +759,11 @@
             "XBRLs/TVSSRICHAK_24-25_Standalone.xml"
         ],
         "file_type": "test",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TVSSRICHAK_16102025213417.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_TVSSRICHAK_16102025213205.xml"
+        }
     },
     "WIPRO": {
         "Company": "Wipro Limited",
@@ -584,7 +775,11 @@
             "XBRLs/WIPRO_24-25_Standalone.xml"
         ],
         "file_type": "train",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_WIPRO_05082025212849.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_WIPRO_05082025213909.xml"
+        }
     },
     "ZYDUSWELL": {
         "Company": "Zydus Wellness Limited",
@@ -596,6 +791,10 @@
             "XBRLs/ZYDUSWELL_24-25_Standalone.xml"
         ],
         "file_type": "test",
-        "is_conglomerate": false
+        "is_conglomerate": false,
+        "xbrl_links": {
+            "consolidated": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ZYDUSWELL_29082025152918.xml",
+            "standalone": "https://nsearchives.nseindia.com/corporate/xbrl/AR_XBRL_ZYDUSWELL_29082025152840.xml"
+        }
     }
 }
