@@ -1,874 +1,355 @@
-# Finalyze - Technical Documentation & Notion Guide
+I’ll open your Hugging Face Space code, extract the exact workflow/entrypoints/env vars/output schema, then draft two concise but complete READMEs: one GitHub-style and one Notion-friendly technical doc, both aligned to your repo.
 
-## Project Overview
 
-**Project Name:** Finalyze - Financial Reports Classifier  
-**Purpose:** Automated segmentation of PDF financial reports into Balance Sheet, P&L, and Cash Flow statements  
-**Status:** Production  
-**Version:** 1.0.0  
-**Last Updated:** January 2024
+Below are two ready-to-paste docs (1) **GitHub `README.md`** and (2) **Notion Technical Doc** for your Hugging Face codebase.
 
 ---
 
-## 1. What is Finalyze?
+## 1) GitHub README (`README.md`)
 
-Finalyze is an intelligent document classification system that automatically:
+# Financial Statements Classifier (PDF → Statement Page Ranges)
 
-1. **Ingests** PDF financial reports
-2. **Extracts** text content using advanced PDF parsing
-3. **Classifies** pages into three financial statement categories
-4. **Outputs** predictions with confidence scores
+Classifier for **financial reports in PDF** that segments the three primary financial statements:
 
-### Core Functionality
+* **Balance Sheet** (Statement of Financial Position)
+* **Profit & Loss** (Income / Earnings / Operations)
+* **Cash Flow Statement**
 
-| Feature | Description |
-|---------|-------------|
-| **Multi-class Classification** | Identifies Balance Sheet, Income Statement, Cash Flow |
-| **Confidence Scoring** | Provides probability scores for each prediction |
-| **Batch Processing** | Process multiple PDFs sequentially or in parallel |
-| **OCR Support** | Handles both digital and scanned PDFs |
-| **Web Interface** | User-friendly Streamlit application |
-| **API-Ready** | JSON input/output for integration |
+It supports **both** **consolidated** and **standalone** (when present), returning **page blocks** with explicit `pages` lists (not just single-page hits). ([Hugging Face][1])
 
 ---
 
-## 2. Technical Architecture
+## How it works (high-level)
 
-### System Components
+1. **Extract text per page**
 
-```
-┌─────────────────────────────────────────────────┐
-│         User Interface (Streamlit)              │
-├─────────────────────────────────────────────────┤
-│                                                 │
-│  ┌──────────────────────────────────────────┐   │
-│  │    PDF Upload & Processing Module        │   │
-│  │  - File validation                       │   │
-│  │  - Format detection                      │   │
-│  │  - Size limits                           │   │
-│  └──────────────────────────────────────────┘   │
-│                     ↓                           │
-│  ┌──────────────────────────────────────────┐   │
-│  │    Text Extraction Engine (PyMuPDF)      │   │
-│  │  - Native text extraction                │   │
-│  │  - OCR fallback (Tesseract)             │   │
-│  │  - Page-by-page processing               │   │
-│  └──────────────────────────────────────────┘   │
-│                     ↓                           │
-│  ┌──────────────────────────────────────────┐   │
-│  │    Preprocessing Pipeline                │   │
-│  │  - Tokenization                          │   │
-│  │  - Normalization                         │   │
-│  │  - Token truncation (512 max)            │   │
-│  └──────────────────────────────────────────┘   │
-│                     ↓                           │
-│  ┌──────────────────────────────────────────┐   │
-│  │    Classification Model                  │   │
-│  │  - DistilBERT base                       │   │
-│  │  - Fine-tuned on financial documents     │   │
-│  │  - Softmax output layer (3 classes)      │   │
-│  └──────────────────────────────────────────┘   │
-│                     ↓                           │
-│  ┌──────────────────────────────────────────┐   │
-│  │    Post-processing & Results             │   │
-│  │  - Confidence filtering                  │   │
-│  │  - Page grouping                         │   │
-│  │  - Report generation                     │   │
-│  └──────────────────────────────────────────┘   │
-│                                                 │
-└─────────────────────────────────────────────────┘
-```
+   * If the PDF is digital → use extracted text.
+   * If a page is likely scanned / low-text → OCR using Tesseract. ([Hugging Face][2])
 
-### Technology Stack
+2. **Heuristic candidate discovery**
 
-| Layer | Technology | Version |
-|-------|-----------|---------|
-| **Frontend** | Streamlit | 1.28+ |
-| **ML Framework** | PyTorch | 2.0+ |
-| **NLP** | Transformers (HuggingFace) | 4.35+ |
-| **PDF Processing** | PyMuPDF (fitz) | 1.23+ |
-| **Data Processing** | Pandas, NumPy | 2.0+, 1.24+ |
-| **Backend** | Python | 3.9+ |
-| **Hosting** | Hugging Face Spaces | - |
+   * Finds statement pages using:
+
+     * title variants (incl. consolidated/standalone)
+     * signature table terms (line items)
+     * table-likeness features (numbers/years/currency/parentheses)
+   * Builds **blocks** and extends multi-page statements using continuation scoring. ([Hugging Face][3])
+
+3. **Select pages to send to the LLM (image budgeted)**
+
+   * Prefer heuristic blocks and try to include **both scopes** (consolidated + standalone) when detected.
+   * Adds neighbors (`start-1`, `end+1`) to reduce boundary misses. ([Hugging Face][3])
+
+4. **Render selected pages to images + send to OpenRouter vision model**
+
+   * Sends **page images + OCR/native snippets** with a strict JSON schema request. ([Hugging Face][1])
+
+5. **Normalize/validate output**
+
+   * Ensures each block includes `pages`, clamps page numbers, and derives `start_page/end_page` from `pages`. ([Hugging Face][1])
 
 ---
 
-## 3. Installation & Setup Guide
+## Output format (JSON)
 
-### Prerequisites
+Each statement is a **LIST of blocks** (empty list if not present). Pages are **1-indexed**. ([Hugging Face][1])
 
-```bash
-# Check Python version
-python --version  # Should be 3.9 or higher
+Example (both consolidated + standalone):
 
-# Update pip
-pip install --upgrade pip
-```
-
-### Step-by-Step Installation
-
-#### Option A: Using pip + venv (Recommended)
-
-```bash
-# 1. Clone repository
-git clone https://huggingface.co/spaces/FridayCodehhr/finalyze
-cd finalyze
-
-# 2. Create virtual environment
-python -m venv venv
-
-# 3. Activate virtual environment
-# On Linux/macOS:
-source venv/bin/activate
-
-# On Windows:
-venv\Scripts\activate
-
-# 4. Install dependencies
-pip install -r requirements.txt
-
-# 5. Run application
-streamlit run app.py
-```
-
-#### Option B: Using conda
-
-```bash
-# 1. Create environment
-conda create -n finalyze python=3.9
-
-# 2. Activate environment
-conda activate finalyze
-
-# 3. Clone and navigate
-git clone https://huggingface.co/spaces/FridayCodehhr/finalyze
-cd finalyze
-
-# 4. Install dependencies
-pip install -r requirements.txt
-
-# 5. Run application
-streamlit run app.py
-```
-
-#### Option C: Direct pip installation
-
-```bash
-pip install streamlit==1.28.0 torch==2.0.0 transformers==4.35.0 \
-            pymupdf==1.23.0 numpy==1.24.0 pandas==2.0.0 \
-            scikit-learn==1.3.0 pillow==10.0.0
-```
-
-### Verification
-
-```bash
-# Test imports
-python -c "import streamlit, torch, transformers, pymupdf; print('All imports successful')"
-
-# Check model download
-python -c "from transformers import AutoTokenizer; AutoTokenizer.from_pretrained('distilbert-base-uncased')"
-
-# Start application
-streamlit run app.py
-```
-
----
-
-## 4. Project Structure & Code Organization
-
-```
-finalyze/
-│
-├── app.py                          # Main Streamlit application
-│
-├── models/
-│   ├── __init__.py
-│   ├── classifier.py              # Core classification logic
-│   ├── model_loader.py            # Model initialization
-│   └── ensemble.py                # Multi-model ensemble (optional)
-│
-├── utils/
-│   ├── __init__.py
-│   ├── config.py                  # Configuration parameters
-│   ├── pdf_handler.py             # PDF extraction utilities
-│   ├── preprocessor.py            # Text preprocessing
-│   ├── postprocessor.py           # Result post-processing
-│   └── logger.py                  # Logging setup
-│
-├── data/
-│   ├── sample_reports/            # Sample PDFs for testing
-│   └── outputs/                   # Processed results
-│
-├── requirements.txt               # Dependencies
-├── README.md                       # README
-├── .streamlit/
-│   └── config.toml               # Streamlit configuration
-└── .gitignore
-
-```
-
-### Key Files Description
-
-#### `app.py` (Main Application)
-```python
-# Streamlit page configuration
-# Sidebar for file upload
-# Main processing loop
-# Results display
-# Output export options
-```
-
-#### `models/classifier.py` (Classification Engine)
-```python
-class FinancialClassifier:
-    - __init__(model_name, device)
-    - load_model()
-    - predict(text)
-    - predict_batch(texts)
-    - get_confidence()
-    - set_threshold()
-```
-
-#### `utils/pdf_handler.py` (PDF Processing)
-```python
-def extract_pdf_text(pdf_path, ocr_enabled=False, max_pages=None)
-def extract_page_text(page, method='native')
-def detect_pdf_type(pdf_path)
-def validate_pdf(pdf_path)
-```
-
-#### `utils/config.py` (Configuration)
-```python
-# Model parameters
-MODEL_NAME = "distilbert-base-uncased"
-CONFIDENCE_THRESHOLD = 0.5
-
-# Processing parameters
-MAX_TOKENS = 512
-OCR_ENABLED = True
-
-# Classification labels
-STATEMENT_TYPES = {0: "Balance Sheet", 1: "Income Statement", 2: "Cash Flow"}
-```
-
----
-
-## 5. How the Code Works
-
-### Data Flow
-
-```
-PDF File
-   ↓
-[File Validation]
-   ↓
-[Text Extraction - PyMuPDF]
-   │
-   ├─→ Native extraction (digital PDF)
-   └─→ OCR fallback (scanned PDF)
-   ↓
-[Page Segmentation]
-   ↓
-[Text Preprocessing]
-   ├─→ Tokenization
-   ├─→ Normalization
-   ├─→ Truncation (max 512 tokens)
-   └─→ Padding
-   ↓
-[Transformer Model - DistilBERT]
-   ↓
-[Softmax Classification]
-   ├─→ Balance Sheet (P0)
-   ├─→ Income Statement (P1)
-   └─→ Cash Flow (P2)
-   ↓
-[Post-processing]
-   ├─→ Confidence filtering
-   ├─→ Page grouping
-   └─→ Result aggregation
-   ↓
-[Output Generation]
-   ├─→ Console output
-   ├─→ JSON export
-   └─→ PDF report
-```
-
-### Core Algorithm
-
-#### 1. Text Extraction
-```python
-import pymupdf
-
-doc = pymupdf.open(pdf_path)
-for page_num, page in enumerate(doc):
-    text = page.get_text()  # Extract text
-    # If empty, apply OCR
-    if not text.strip():
-        pixmap = page.get_pixmap()
-        # Use Tesseract OCR
-```
-
-#### 2. Preprocessing
-```python
-from transformers import AutoTokenizer
-
-tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
-
-tokens = tokenizer(
-    text,
-    max_length=512,
-    truncation=True,
-    padding=True,
-    return_tensors="pt"
-)
-```
-
-#### 3. Classification
-```python
-from transformers import AutoModelForSequenceClassification
-
-model = AutoModelForSequenceClassification.from_pretrained(
-    "distilbert-base-uncased",
-    num_labels=3
-)
-
-outputs = model(**tokens)
-predictions = outputs.logits.softmax(dim=-1)
-class_id = predictions.argmax().item()
-confidence = predictions[0][class_id].item()
-```
-
-#### 4. Post-processing
-```python
-# Group consecutive pages with same classification
-# Filter low-confidence predictions
-# Create final segments
-# Generate report
-```
-
----
-
-## 6. Running the Application
-
-### Local Execution
-
-```bash
-# Terminal 1: Start Streamlit server
-streamlit run app.py
-
-# Application will open at:
-# http://localhost:8501
-```
-
-### Web Interface Walkthrough
-
-#### Step 1: Access Application
-- Navigate to `http://localhost:8501`
-- See main title and sidebar
-
-#### Step 2: Upload PDF
-- Click "Upload Financial Report" in sidebar
-- Select PDF file (supports up to 100MB)
-- System validates file format
-
-#### Step 3: Configure Settings
-- Set confidence threshold (0.0 - 1.0)
-- Choose output format (JSON/PDF/CSV)
-- Enable/disable OCR for scanned documents
-
-#### Step 4: Process Document
-- Click "Classify Document" button
-- Real-time progress updates
-- Processing time: ~1-2 seconds per page
-
-#### Step 5: View Results
-```
-Document: financial_report.pdf
-├─ Pages 1-3: Balance Sheet (Confidence: 98%)
-├─ Pages 4-6: Income Statement (Confidence: 96%)
-└─ Pages 7-9: Cash Flow Statement (Confidence: 94%)
-```
-
-#### Step 6: Export Results
-- Download JSON with predictions
-- Export as CSV for spreadsheet analysis
-- Generate PDF report with highlights
-
-### Command-Line Usage
-
-```bash
-# Process single file
-python -c "
-from models.classifier import FinancialClassifier
-from utils.pdf_handler import extract_pdf_text
-
-clf = FinancialClassifier()
-text = extract_pdf_text('report.pdf')
-result = clf.predict(text)
-print(result)
-"
-
-# Batch processing
-python scripts/batch_process.py --input ./pdfs/ --output ./results/
-```
-
----
-
-## 7. Model Details
-
-### Model Architecture
-
-**Base Model:** DistilBERT (Distilled BERT)
-- Distilled from BERT-base for 40% faster, 60% smaller
-- Pre-trained on English Wikipedia + BookCorpus
-- 6 transformer layers, 12 attention heads
-
-**Custom Fine-tuning:**
-- Training data: 5,000+ labeled financial documents
-- Classification task: 3-way classification
-- Output: Softmax probabilities
-
-### Model Performance
-
-| Metric | Value |
-|--------|-------|
-| **Overall Accuracy** | 95.2% |
-| **Balance Sheet Precision** | 96.1% |
-| **Income Statement Precision** | 94.8% |
-| **Cash Flow Precision** | 93.5% |
-| **Inference Speed (CPU)** | 1.2 sec/page |
-| **Inference Speed (GPU)** | 0.3 sec/page |
-
-### Input/Output Specifications
-
-**Input:**
-- Text: 1-512 tokens
-- Format: String or list of strings
-- Language: English only
-
-**Output:**
 ```json
 {
-  "class_id": 0,
-  "class_name": "Balance Sheet",
-  "confidence": 0.98,
-  "probabilities": {
-    "Balance Sheet": 0.98,
-    "Income Statement": 0.01,
-    "Cash Flow": 0.01
-  }
+  "balance_sheet": [
+    {
+      "scope": "standalone",
+      "start_page": 90,
+      "end_page": 92,
+      "pages": [90, 91, 92],
+      "confidence": 0.86,
+      "title": "Standalone Balance Sheets",
+      "evidence_pages": [90, 91]
+    },
+    {
+      "scope": "consolidated",
+      "start_page": 133,
+      "end_page": 135,
+      "pages": [133, 134, 135],
+      "confidence": 0.89,
+      "title": "Consolidated Balance Sheets",
+      "evidence_pages": [133, 134]
+    }
+  ],
+  "profit_and_loss": [],
+  "cash_flow": [],
+  "notes": []
 }
 ```
 
 ---
 
-## 8. Configuration & Customization
+## Repo structure
 
-### Key Configuration Parameters
-
-Edit `utils/config.py`:
-
-```python
-# ============ MODEL SETTINGS ============
-MODEL_NAME = "distilbert-base-uncased"
-DEVICE = "cpu"  # or "cuda" for GPU
-BATCH_SIZE = 32
-
-# ============ CLASSIFICATION SETTINGS ============
-CONFIDENCE_THRESHOLD = 0.5
-NUM_CLASSES = 3
-STATEMENT_TYPES = {
-    0: "Balance Sheet",
-    1: "Income Statement",
-    2: "Cash Flow Statement"
-}
-
-# ============ PDF PROCESSING SETTINGS ============
-MAX_PAGES = None  # None = process all
-MAX_TOKENS_PER_PAGE = 512
-OCR_ENABLED = True
-OCR_LANGUAGE = "eng"
-
-# ============ TEXT PREPROCESSING ============
-LOWERCASE = True
-REMOVE_SPECIAL_CHARS = False
-REMOVE_STOPWORDS = False
-
-# ============ OUTPUT SETTINGS ============
-OUTPUT_FORMATS = ["json", "csv", "pdf"]
-SAVE_RESULTS = True
-RESULTS_DIR = "./data/outputs/"
-```
-
-### Custom Model Training
-
-```python
-# Fine-tune on custom dataset
-from transformers import DistilBertForSequenceClassification, Trainer, TrainingArguments
-from datasets import load_dataset
-
-# Load dataset
-dataset = load_dataset("csv", data_files={
-    "train": "train.csv",
-    "validation": "val.csv"
-})
-
-# Initialize model
-model = DistilBertForSequenceClassification.from_pretrained(
-    "distilbert-base-uncased",
-    num_labels=3
-)
-
-# Training arguments
-args = TrainingArguments(
-    output_dir="./outputs",
-    num_train_epochs=3,
-    per_device_train_batch_size=16,
-    learning_rate=2e-5,
-    evaluation_strategy="epoch"
-)
-
-# Train
-trainer = Trainer(
-    model=model,
-    args=args,
-    train_dataset=dataset["train"],
-    eval_dataset=dataset["validation"]
-)
-
-trainer.train()
-trainer.save_model("./custom_model")
-```
+* `main.py` — CLI entry + end-to-end `analyze_pdf()` pipeline; prompt + schema + output normalization ([Hugging Face][1])
+* `pdf_io.py` — text extraction + selective OCR + PDF page rendering to PNG bytes ([Hugging Face][2])
+* `statement_candidates.py` — heuristic scoring, block building, scope detection, and page selection for LLM ([Hugging Face][3])
+* `openrouter_client.py` — OpenRouter chat/vision call helpers + JSON repair/parsing (used by `main.py`) ([Hugging Face][1])
+* `config.py` — env + defaults (image budget, DPI, OCR lang, model selection list) ([Hugging Face][4])
+* `app.py` — FastAPI server for Hugging Face Space (`/analyze`, `/pdf/page/{page_num}`) ([Hugging Face][5])
+* `index.html` — simple UI to upload PDF + view outputs/pages
 
 ---
 
-## 9. Troubleshooting Guide
+## Requirements
 
-### Common Issues & Solutions
+Python deps are in `requirements.txt` (FastAPI, Uvicorn, PyMuPDF, pytesseract, etc.). ([Hugging Face][6])
+System dependency: **Tesseract OCR** (installed in Dockerfile for HF Spaces). ([Hugging Face][7])
 
-#### Issue 1: ImportError - Module not found
-```
-Error: ModuleNotFoundError: No module named 'streamlit'
-Solution:
-  pip install -r requirements.txt
-  # or
-  pip install streamlit
-```
+---
 
-#### Issue 2: PDF Text Extraction Returns Empty
-```
-Problem: Some PDFs have no extractable text (scanned/image-heavy)
-Solution:
-  - Enable OCR in config: OCR_ENABLED = True
-  - Increase OCR_THRESHOLD value
-  - Verify PDF quality
-  - Check PDF has actual text content
-```
+## Setup
 
-#### Issue 3: Low Confidence Scores
-```
-Causes:
-  - PDF quality is poor
-  - Text is heavily formatted (tables, columns)
-  - Document format differs from training data
-  - Model confidence threshold too high
+### 1) Install system OCR (Tesseract)
 
-Solutions:
-  1. Lower CONFIDENCE_THRESHOLD in config
-  2. Check PDF for formatting issues
-  3. Use OCR for scanned documents
-  4. Fine-tune model on custom data
-```
+* Debian/Ubuntu:
 
-#### Issue 4: Out of Memory Error
-```
-Error: CUDA out of memory / RAM exceeded
-Solutions:
-  - Reduce BATCH_SIZE in config
-  - Reduce MAX_TOKENS_PER_PAGE (512 → 256)
-  - Process files one at a time
-  - Use CPU instead of GPU
-  - Increase system virtual memory
-```
+  ```bash
+  sudo apt-get update
+  sudo apt-get install -y tesseract-ocr
+  ```
 
-#### Issue 5: Slow Processing
-```
-Cause: CPU-only inference
-Solutions:
-  - Install GPU-compatible PyTorch:
-    pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-  - Use DistilBERT (already using)
-  - Reduce token length
-  - Use batch processing
-```
-
-#### Issue 6: Model Not Found
-```
-Error: FileNotFoundError: Model not downloaded
-Solution:
-  - Download model manually:
-    python -c "from transformers import AutoModel; AutoModel.from_pretrained('distilbert-base-uncased')"
-  - Check internet connection
-  - Increase HF_HOME cache directory
-```
-
-### Debug Mode
+### 2) Install Python deps
 
 ```bash
-# Enable verbose logging
-export DEBUG=True
-streamlit run app.py --logger.level=debug
-
-# Check model files
-ls ~/.cache/huggingface/
-
-# Test PDF extraction
-python -c "
-from utils.pdf_handler import extract_pdf_text
-text = extract_pdf_text('test.pdf')
-print(f'Extracted {len(text)} characters')
-"
+pip install -r requirements.txt
 ```
 
----
+### 3) Configure environment
 
-## 10. Performance Optimization
-
-### Speed Optimization
-
-| Method | Improvement | Cost |
-|--------|-------------|------|
-| Use GPU | 4x faster | Requires CUDA |
-| Reduce tokens (256) | 2x faster | Slight accuracy loss |
-| Use DistilBERT | 2.6x faster | 1% accuracy loss |
-| Batch processing | Variable | Memory usage |
-
-### Implementation
-
-```python
-# Use GPU if available
-import torch
-device = "cuda" if torch.cuda.is_available() else "cpu"
-
-# Reduce token length
-MAX_TOKENS = 256  # instead of 512
-
-# Batch processing
-classifier = FinancialClassifier()
-texts = [...]
-results = classifier.predict_batch(texts, batch_size=32)
-```
-
-### Memory Management
-
-```python
-import gc
-
-# Clear GPU cache
-torch.cuda.empty_cache()
-
-# Clear Python cache
-gc.collect()
-
-# Monitor memory
-import psutil
-print(f"Memory usage: {psutil.virtual_memory().percent}%")
-```
-
----
-
-## 11. Deployment Options
-
-### Hugging Face Spaces (Current)
-- **URL:** https://huggingface.co/spaces/FridayCodehhr/finalyze
-- **Runtime:** CPU (free tier)
-- **Uptime:** Always on
-- **Update:** Git push to main
-
-### Local Server
-```bash
-streamlit run app.py --server.port 8501 --server.address 0.0.0.0
-```
-
-### Docker Containerization
-```dockerfile
-FROM python:3.9-slim
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-
-COPY . .
-EXPOSE 8501
-
-CMD ["streamlit", "run", "app.py", "--server.headless", "true"]
-```
-
-Build and run:
-```bash
-docker build -t finalyze:latest .
-docker run -p 8501:8501 finalyze:latest
-```
-
-### Cloud Deployment (AWS EC2)
-```bash
-# SSH into instance
-ssh -i key.pem ec2-user@instance-ip
-
-# Clone repo and setup
-git clone https://huggingface.co/spaces/FridayCodehhr/finalyze
-cd finalyze
-
-# Create service
-sudo nano /etc/systemd/system/finalyze.service
-# Add: ExecStart=/usr/local/bin/streamlit run /home/ec2-user/finalyze/app.py
-# Enable: sudo systemctl enable finalyze
-
-# Start service
-sudo systemctl start finalyze
-```
-
----
-
-## 12. API Integration
-
-### FastAPI Backend (Optional)
-```python
-from fastapi import FastAPI, UploadFile
-from models.classifier import FinancialClassifier
-
-app = FastAPI()
-classifier = FinancialClassifier()
-
-@app.post("/classify")
-async def classify(file: UploadFile):
-    contents = await file.read()
-    # Process and return
-    return {"predictions": predictions}
-
-# Run: uvicorn api:app --reload
-```
-
-### Integration Examples
-
-**Python:**
-```python
-import requests
-files = {'pdf': open('report.pdf', 'rb')}
-response = requests.post('http://localhost:8000/classify', files=files)
-print(response.json())
-```
-
-**cURL:**
-```bash
-curl -X POST -F "pdf=@report.pdf" http://localhost:8000/classify
-```
-
-**JavaScript:**
-```javascript
-const formData = new FormData();
-formData.append('pdf', fileInput.files[0]);
-const response = await fetch('http://localhost:8000/classify', {
-    method: 'POST',
-    body: formData
-});
-const result = await response.json();
-```
-
----
-
-## 13. Maintenance & Updates
-
-### Regular Maintenance
+Create `.env`:
 
 ```bash
-# Update dependencies
-pip install --upgrade -r requirements.txt
-
-# Test after updates
-python -m pytest tests/
-
-# Clean cache
-rm -rf ~/.cache/huggingface/
-rm -rf __pycache__/
+OPENROUTER_API_KEY="YOUR_KEY"
+# optional:
+OPENROUTER_MODEL=""        # if empty, auto-picks a free vision model
+MAX_IMAGES="12"
+PDF_RENDER_DPI="200"
+OCR_LANG="eng"
+MIN_TEXT_CHARS_FOR_DIGITAL="80"
+TOPK_PER_STATEMENT="3"
+MAX_BLOCKS_PER_STATEMENT="2"
+CONTINUATION_MAX_FORWARD="6"
 ```
 
-### Monitoring
+These settings and defaults are defined in `config.py`. ([Hugging Face][4])
 
-```python
-import logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+---
 
-# Log predictions
-logger.info(f"Classification: {prediction} (confidence: {confidence})")
-```
-
-### Backup
+## Run (CLI)
 
 ```bash
-# Backup model and config
-tar -czf finalyze_backup_$(date +%Y%m%d).tar.gz \
-    utils/config.py \
-    models/ \
-    requirements.txt
+python main.py --pdf "/path/to/report.pdf" --out "ranges.json"
 ```
 
----
-
-## 14. Future Enhancements
-
-### Roadmap
-
-**v1.1 (Q1 2024)**
-- [ ] Notes to Statements classification
-- [ ] Segment-level financial data extraction
-- [ ] Multi-language support (ES, FR, DE, ZH)
-
-**v1.2 (Q2 2024)**
-- [ ] Custom model training UI
-- [ ] Advanced batch processing API
-- [ ] Results analytics dashboard
-
-**v2.0 (Q3 2024)**
-- [ ] Financial data extraction (numbers, line items)
-- [ ] Multi-document comparison
-- [ ] SEC filing integration (10-K, 10-Q)
+`main.py` uses a strict JSON schema where each statement is a list of blocks and must include `pages`. ([Hugging Face][1])
 
 ---
 
-## 15. Resources & References
+## Run (API / Hugging Face Space)
 
-### Documentation
-- [Transformers Library](https://huggingface.co/docs/transformers/)
-- [PyMuPDF](https://pymupdf.readthedocs.io/)
-- [Streamlit](https://docs.streamlit.io/)
-- [PyTorch](https://pytorch.org/docs/)
+Start locally:
 
-### Learning Materials
-- [BERT Paper](https://arxiv.org/abs/1810.04805)
-- [DistilBERT Paper](https://arxiv.org/abs/1910.01108)
-- [Document Classification Guide](https://huggingface.co/docs/transformers/tasks/sequence_classification)
+```bash
+uvicorn app:app --host 0.0.0.0 --port 7860
+```
 
-### Datasets
-- [Financial PhraseBank](https://huggingface.co/datasets/financial_phrasebank)
-- [SEC Filings Dataset](https://www.sec.gov/cgi-bin/browse-edgar)
+Endpoints:
 
-### Community
-- [HuggingFace Discussions](https://discuss.huggingface.co/)
-- [Stack Overflow - transformers](https://stackoverflow.com/questions/tagged/transformers)
+* `POST /analyze` — upload a PDF and get JSON result
+* `GET /pdf/page/{page_num}` — returns PNG of a page (for UI viewing)
+
+Implemented in `app.py`. ([Hugging Face][5])
 
 ---
 
-## Support & Contact
+## Model selection (free vision)
 
-**Project Maintainer:** FridayCodehhr  
-**GitHub Issues:** [Link to issues]  
-**Email:** [Support email]  
-**Hugging Face Discussions:** [Link]
+If `OPENROUTER_MODEL` is not set, the code auto-selects from a list of free vision-capable models in `config.py`. ([Hugging Face][4])
 
 ---
 
-**Last Updated:** January 2024  
-**Documentation Version:** 1.0.0  
-**Status:** Complete
+## Future work
+
+* Add segmentation for **Notes to Financial Statements** (currently only mentioned as a future target; not fully implemented). ([Hugging Face][3])
+
+---
+
+## References
+
+[1] `main.py` (prompt/schema/output normalization) ([Hugging Face][1])
+[2] `statement_candidates.py` (title variants, signature terms, block building, selection) ([Hugging Face][3])
+[3] `pdf_io.py` (extraction/OCR/render) ([Hugging Face][2])
+[4] `config.py` (env vars + defaults + free model list) ([Hugging Face][4])
+[5] `app.py` (API endpoints + upload handling) ([Hugging Face][5])
+[6] `requirements.txt` + `Dockerfile` (deps + Tesseract install) ([Hugging Face][6])
+
+---
+
+---
+
+## 2) Notion Technical Doc (paste into Notion)
+
+# Financial Statements Classifier — Technical Documentation
+
+## Goal
+
+Given a company’s financial report PDF, return **page blocks** for the three primary financial statements:
+
+1. Balance Sheet / Statement of Financial Position
+2. Profit & Loss / Income / Earnings / Operations
+3. Cash Flow Statement
+
+The system is designed to return **both** **standalone** and **consolidated** blocks when present, and each block must include an explicit `pages` list. ([Hugging Face][1])
+
+---
+
+## System overview
+
+### Core pipeline (end-to-end)
+
+**Entry:** `analyze_pdf()` in `main.py` ([Hugging Face][1])
+
+1. **Text extraction + OCR**
+
+   * Extract per-page text.
+   * If a page is scanned / low text, run Tesseract OCR.
+   * Mixed PDFs are supported (some pages digital, some scanned). ([Hugging Face][2])
+
+2. **Heuristic discovery (fast + explainable)**
+
+   * `statement_candidates.py` identifies statement pages using:
+
+     * **Title variants** (example: “Consolidated Balance Sheets”, “Standalone Statements of Operations”, etc.) ([Hugging Face][3])
+     * **Signature terms** (table line-items & structure cues)
+
+       * Balance sheet: “total assets”, “total liabilities”, “total equity”, “current assets”, etc.
+       * P&L: “revenue”, “gross profit”, “profit before tax”, “earnings per share”, etc.
+       * Cash flow: “cash flows from operating/investing/financing activities”, etc. ([Hugging Face][3])
+     * Table-likeness stats (numbers ratio, year count, currency cues, parentheses count) and penalties (TOC dot-leaders, note headings). ([Hugging Face][3])
+
+3. **Block building (multi-page statements)**
+
+   * If a statement title is detected, build a block and **expand forward**:
+
+     * Continuation pages may not repeat titles; expansion uses signature signals and “continued” patterns. ([Hugging Face][3])
+   * Title hits are clustered, then blocks are deduped/merged by overlap. ([Hugging Face][3])
+
+4. **Scope handling (standalone vs consolidated)**
+
+   * Scope is inferred from matched title variants (“consolidated”, “standalone”) and stored per block. ([Hugging Face][3])
+   * Selection tries to keep **distinct scopes** when possible (so a report like Britannia can return both standalone and consolidated blocks). ([Hugging Face][3])
+
+5. **LLM page selection (budget-aware)**
+
+   * Convert blocks → pick pages for the vision LLM:
+
+     * prioritize blocks across statements
+     * include neighbors to tighten range boundaries
+     * cap by `MAX_IMAGES` ([Hugging Face][3])
+
+6. **Render selected pages → images**
+
+   * Render chosen pages to PNG bytes at configured DPI. ([Hugging Face][2])
+
+7. **Vision LLM verification & final range extraction**
+
+   * `main.py` sends:
+
+     * selected page images
+     * OCR/native snippets per page
+     * heuristic blocks for reference
+   * LLM must return **strict JSON only** using list-of-blocks schema. ([Hugging Face][1])
+   * Post-processing normalizes output so every block has `pages` and correct `start_page/end_page`. ([Hugging Face][1])
+
+---
+
+## Output contract
+
+* Pages are **1-indexed**
+* Each statement key is a **list of blocks**
+* Each block must include:
+
+  * `scope`: `consolidated | standalone | unknown`
+  * `pages`: full explicit page list
+  * `start_page/end_page`: derived from `pages` (or expanded if only start/end given)
+  * `confidence`, `title`, `evidence_pages` ([Hugging Face][1])
+
+---
+
+## Configuration (env vars)
+
+Defined in `config.py`: ([Hugging Face][4])
+
+* `OPENROUTER_API_KEY` (required)
+* `OPENROUTER_MODEL` (optional; if unset, auto-select free vision model)
+* `MAX_IMAGES` (default 12)
+* `PDF_RENDER_DPI` (default 200)
+* `OCR_LANG` (default `eng`)
+* `MIN_TEXT_CHARS_FOR_DIGITAL` (default 80)
+* `TOPK_PER_STATEMENT` (default 3)
+* `MAX_BLOCKS_PER_STATEMENT` (default 2)
+* `CONTINUATION_MAX_FORWARD` (default 6)
+
+Default free vision model list includes `google/gemma-3-12b-it:free`, `nvidia/nemotron-nano-12b-v2-vl:free`, `amazon/nova-2-lite-v1:free`. ([Hugging Face][4])
+
+---
+
+## API (Hugging Face Space)
+
+Implemented via FastAPI in `app.py`: ([Hugging Face][5])
+
+* `POST /analyze`
+
+  * Upload a PDF
+  * Returns JSON result from `analyze_pdf()`
+* `GET /pdf/page/{page_num}`
+
+  * Renders and returns a PNG for viewing in the UI
+
+Note: uploaded file is saved to `/tmp/latest_upload.pdf` (simple demo approach, not multi-user safe). ([Hugging Face][5])
+
+---
+
+## Deployment notes (HF Space)
+
+* Docker uses `python:3.10-slim`
+* Installs `tesseract-ocr` and `libtesseract-dev`
+* Runs `uvicorn app:app --port 7860` ([Hugging Face][7])
+* Python dependencies are in `requirements.txt` (FastAPI/Uvicorn/PyMuPDF/pytesseract/etc.) ([Hugging Face][6])
+
+---
+
+## Code map
+
+* `main.py` — orchestrates pipeline + LLM prompt/schema + output normalization ([Hugging Face][1])
+* `pdf_io.py` — extract/OCR/render helpers ([Hugging Face][2])
+* `statement_candidates.py` — statement detection logic + page picking ([Hugging Face][3])
+* `config.py` — settings ([Hugging Face][4])
+* `app.py` — Space API + UI integration ([Hugging Face][5])
+
+---
+
+## References
+
+[1] Pipeline + JSON schema contract (`main.py`) ([Hugging Face][1])
+[2] Heuristics + blocks + scope logic (`statement_candidates.py`) ([Hugging Face][3])
+[3] OCR/text/render (`pdf_io.py`) ([Hugging Face][2])
+[4] Settings + defaults (`config.py`) ([Hugging Face][4])
+[5] API endpoints (`app.py`) ([Hugging Face][5])
+[6] HF Docker + deps (`Dockerfile`, `requirements.txt`) ([Hugging Face][7])
+
+[1]: https://huggingface.co/spaces/FridayCodehhr/finalyze/blob/main/main.py "main.py · FridayCodehhr/finalyze at main"
+[2]: https://huggingface.co/spaces/FridayCodehhr/finalyze/blob/main/index.html "index.html · FridayCodehhr/finalyze at main"
+[3]: https://huggingface.co/spaces/FridayCodehhr/finalyze/blob/main/statement_candidates.py "statement_candidates.py · FridayCodehhr/finalyze at main"
+[4]: https://huggingface.co/spaces/FridayCodehhr/finalyze/blob/main/config.py "config.py · FridayCodehhr/finalyze at main"
+[5]: https://huggingface.co/spaces/FridayCodehhr/finalyze/blob/main/app.py "app.py · FridayCodehhr/finalyze at main"
+[6]: https://huggingface.co/spaces/FridayCodehhr/finalyze/blob/main/requirements.txt "requirements.txt · FridayCodehhr/finalyze at main"
+[7]: https://huggingface.co/spaces/FridayCodehhr/finalyze/blob/main/Dockerfile "Dockerfile · FridayCodehhr/finalyze at main"
